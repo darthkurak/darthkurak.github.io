@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: My website
+title: Jakub Dropia
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: Taming big data and IoT
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
