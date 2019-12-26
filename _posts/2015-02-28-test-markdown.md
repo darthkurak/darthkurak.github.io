@@ -2,9 +2,6 @@
 layout: post
 title: Test markdown
 subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
 comments: true
 ---
 
@@ -17,11 +14,11 @@ You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll w
 Here's a useless table:
 
 | Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+| :----- | :---------- | :-------------- |
+| Five   | Six         | Four            |
+| Ten    | Eleven      | Nine            |
+| Seven  | Eight       | Six             |
+| Two    | Three       | One             |
 
 
 How about a yummy crepe?
@@ -43,12 +40,12 @@ foo(3)
 
 And here is the same code with syntax highlighting:
 
-```javascript
+{% highlight csharp linenos %}
 var foo = function(x) {
   return(x + 5);
 }
 foo(3)
-```
+{% endhighlight %}
 
 And here is the same code yet again but with line numbers:
 

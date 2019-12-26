@@ -1,16 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Solutions Architect | Bosch
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I am .NET guy and software architecture enthusiast. Recently working on big data and IoT topics from backend perspective. CI/CD, Azure and Agile fan.  
+Father of Four, husband, Golden Retriever owner, drummer, gamer.  
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### Blog
+You will find here posts mostly about topics like: IoT, Azure, .NET, Architecture and any other technical stuff. 
+Sometimes, my personal thoughts :)

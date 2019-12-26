@@ -4,7 +4,7 @@
 title: Jakub Dropia
 
 # Short description of your site
-description: Taming big data and IoT
+description: Taming .NET Core, Azure and IoT
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -21,10 +21,7 @@ description: Taming big data and IoT
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: "http://deanattali.com"
+  Tags: "tags"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -68,7 +65,6 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "jakub.dropia@gmail.com"
   github: darthkurak
   twitter: jakubdropia
 #  reddit: yourname
@@ -117,7 +113,7 @@ url-pretty: "jakubdropia.com"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: ""
+disqus: "jakub-dropia"
 
 # If you want to use JustComments fill with the API Key
 #just-comments: "ABCD-EFGH-IJKL"
@@ -126,15 +122,15 @@ url-pretty: "jakubdropia.com"  # eg. "deanattali.com/beautiful-jekyll"
 # fb_comment_id: ""
 
 # To use Staticman comments, fill in repository, branch, and endpoint
-staticman:
-  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
-  reCaptcha:
-    # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
-    # If you use reCaptcha, you must also set these parameters in staticman.yml
-    siteKey  : # Use your own site key, you need to apply for one on Google
-    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+# staticman:
+#   repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#   branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+#   endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
+#   reCaptcha:
+#     # reCaptcha for Staticman (OPTIONAL, but recommended for spam protection)
+#     # If you use reCaptcha, you must also set these parameters in staticman.yml
+#     siteKey  : # Use your own site key, you need to apply for one on Google
+#     secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # --- Misc --- #
 
