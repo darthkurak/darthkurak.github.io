@@ -1,0 +1,1865 @@
+General:
+Request URL: https://online.enel.pl/Visit/Search?Length=5
+Request Method: POST
+Status Code: 200 
+Remote Address: 192.230.78.90:443
+Referrer Policy: no-referrer-when-downgrade
+
+Response Headers:
+cache-control: no-cache, no-store, must-revalidate
+content-length: 130442
+content-type: text/html; charset=utf-8
+date: Fri, 03 Jan 2020 09:42:31 GMT
+expires: -1
+pragma: no-cache
+server: Microsoft-IIS/8.5
+set-cookie: _enelmedCookie=_city=1; path=/
+status: 200
+strict-transport-security: max-age=600
+x-cdn: Incapsula
+x-frame-options: SAMEORIGIN
+x-iinfo: 7-212727880-212724768 pNNN RT(1578044551718 0) q(0 0 0 -1) r(3 3) U6
+
+Request Headers:
+:authority: online.enel.pl
+:method: POST
+:path: /Visit/Search?Length=5
+:scheme: https
+accept: */*
+accept-encoding: gzip, deflate, br
+accept-language: pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7
+content-length: 584
+content-type: application/x-www-form-urlencoded; charset=UTF-8
+cookie: visid_incap_51662=9l+LeW4PQauebxLnBiQtpsgED14AAAAAQUIPAAAAAACdU04im61QK8NCzNWQ1pV4; incap_ses_260_51662=omlbenoBWEfjTPA46eubA8gED14AAAAAnLY4WDlUcOVB47D7rG5vwQ==; __RequestVerificationToken=-ZYQ5LXMWOKYbK9YGUoIUnZALSw1EVsmSH30ri5u7AIIxkrss-C_57-Eowhh-2YlcjvHlK_7XlJWFapVxeBj8YdFTiB8Xhbd0xMvzflKsKQ1; _ga=GA1.2.598818287.1578042605; _gid=GA1.2.819521939.1578042605; _hjid=e46af802-9ba4-433d-94d1-444b54bccaf0; _hjIncludedInSample=1; _ga=GA1.3.598818287.1578042605; _gid=GA1.3.819521939.1578042605; _enelmedCookie=_city=1; ASP.NET_SessionId=6ea78dbb-aade-47bb-9537-03d3c64da402; .ASPXFORMSAUTH=971D586BAD684389E4B3705DE83C8587E604247AA730E70E1523CB19CC5B1E75FCD0811B16612CD34590EE094FC21012E1878491D3B980237EDAE75330C435032A4E706FA8286228D1C1D7192C52CAFD502A7BFFDCB2163101F7EBC5DC71A7FD176F20F24C7F97260DF60B9651E70647112875C0B05DCBB88F7E5E471352F788; _popoverUserData=hide; _gat_UA-68090867-7=1
+origin: https://online.enel.pl
+referer: https://online.enel.pl/Visit/New
+sec-fetch-mode: cors
+sec-fetch-site: same-origin
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+x-requested-with: XMLHttpRequest
+
+Query string parameters:
+Length: 5
+
+Form Data:
+__RequestVerificationToken: FP5jxlbA6bK0ljm3k59pURpbkBlkpOyGr0afN45D56_-3_gcNEdcqZUvwjJ8-d9w_zyWQmYeAMPl4TWCFCMTf9LdM53MfilbElyFj2x8ooM1
+CurrentPage: 1
+PageSize: 10
+ChangeDate: True
+ReferralRequired: false
+ReferralMandatory: false
+ReferralMandatoryText: 
+HasReferral: false
+BookWithoutReferral: False
+SrvLock: 116
+SearchPremium: False
+CanSearchPremium: true
+City: 1
+ServiceType: 5
+Doctor: 61142
+ForeignLanguageDoctor: false
+Department: 7
+Service: 116
+VisitDateFrom: 2020-01-03
+VisitDateTo: 2020-01-31
+VisitToCancelId: 59833481
+DateIssued: 2020-01-03
+IssuedBy: 
+IssuingDoctor: 
+X-Requested-With: XMLHttpRequest
+
+
+
+
+<form action="/Visit/Search?Length=5" data-ajax="true" data-ajax-begin="DoSearch" data-ajax-mode="replace" data-ajax-update="#VisitSearch" id="SearchVisitForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="4Ob2wJ7m-EsuKvouTQBNIkLj7iNyHFtOswXATFt-IW-FC-QBoAyAZ-BbHMa0voYAyqeE1T-usgb8rany0vEOg5765LZB3qkhe83mJQ9RwBE1" />    <section class="new-visit-form">
+        <div class="container">
+            <h3 class="text-uppercase text-info text-center m-b-28">ZMIEŃ TERMIN WIZYTY LUB BADANIA</h3>
+            
+            <span class="field-validation-valid" data-valmsg-for="ValidationMessageKey" data-valmsg-replace="true"></span>
+            <input data-val="true" data-val-number="Pole CurrentPage musi być liczbą." data-val-required="The CurrentPage field is required." id="CurrentPage" name="CurrentPage" type="hidden" value="1" />
+            <input data-val="true" data-val-number="Pole PageSize musi być liczbą." data-val-required="The PageSize field is required." id="PageSize" name="PageSize" type="hidden" value="10" />
+            <input data-val="true" data-val-required="The ChangeDate field is required." id="ChangeDate" name="ChangeDate" type="hidden" value="True" />
+            <input data-val="true" data-val-required="The ReferralRequired field is required." id="ReferralRequired" name="ReferralRequired" type="hidden" value="False" />
+            <input data-val="true" data-val-required="The ReferralMandatory field is required." id="ReferralMandatory" name="ReferralMandatory" type="hidden" value="False" />
+            <input id="ReferralMandatoryText" name="ReferralMandatoryText" type="hidden" value="" />
+            <input data-val="true" data-val-required="The HasReferral field is required." id="HasReferral" name="HasReferral" type="hidden" value="False" />
+            <input data-val="true" data-val-required="The BookWithoutReferral field is required." id="BookWithoutReferral" name="BookWithoutReferral" type="hidden" value="False" />
+            <input data-val="true" data-val-number="Pole SrvLock musi być liczbą." id="SrvLock" name="SrvLock" type="hidden" value="116" />
+            <input data-val="true" data-val-required="The SearchPremium field is required." id="SearchPremium" name="SearchPremium" type="hidden" value="False" />
+            <input data-val="true" data-val-required="The CanSearchPremium field is required." id="CanSearchPremium" name="CanSearchPremium" type="hidden" value="True" />
+
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-6">
+                    <div class="form-group withselect required">
+                        <label for="City">Miasto</label>
+                        <select class="form-control" data-val="true" data-val-number="Pole Miasto musi być liczbą." data-val-range="Wybór miasta jest obowiązkowy." data-val-range-max="2147483647" data-val-range-min="1" data-val-required="Wybór miasta jest obowiązkowy." id="City" name="City"></select>
+                        <span class="field-validation-valid text-danger" data-valmsg-for="City" data-valmsg-replace="true"></span>
+                    </div>
+                    <div class="form-group withselect required">
+                        <label for="ServiceType">Kategoria</label>
+                        <select class="form-control" data-val="true" data-val-number="Pole Kategoria musi być liczbą." data-val-range="Wymagane jest wybranie typu" data-val-range-max="2147483647" data-val-range-min="1" data-val-required="Wymagane jest wybranie typu" id="ListOfTypes" name="ServiceType" placeholder="Wybierz"></select>
+                        <span class="field-validation-valid text-danger" data-valmsg-for="ServiceType" data-valmsg-replace="true"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Doctor">Lekarz</label>
+                        <div id="checkboxdropdownDoc" class="dropdown dropdown-checkboxes block">
+                            <button class="btn btn-input block dropdown-special-toggle" type="button">
+                                <span class="result">7</span>
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation">
+                                    <div class="form-group checkbox lightc-text small-text centered m-b-14">
+                                        <a href="javascript:void(0);" onclick="checkAllCheckboxes(this)" class="select-all">Zaznacz/odznacz wszystkie</a>
+                                        <div class="choose-group m-b-14">
+
+                                        </div>
+                                        <a href="#" title="" id="confirmDoctor" class="btn btn-primary-bordered btn-sm js-accept-dropdown ">Zatwierdź</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <span class="field-validation-valid" data-valmsg-for="Doctor" data-valmsg-replace="true"></span>
+                            <label class="text-right" style="margin-bottom: -17px;">
+                                <input data-val="true" data-val-required="The Lekarze anglojęzyczni field is required." id="ForeignLanguageDoctor" name="ForeignLanguageDoctor" type="checkbox" value="true" /><input name="ForeignLanguageDoctor" type="hidden" value="false" />
+                                Lekarze anglojęzyczni
+                            </label>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-6">
+                    <div class="form-group required">
+                        <label for="Department">Oddział</label>
+                        <div id="checkboxdropdown" class="dropdown dropdown-checkboxes block">
+                            <button class="btn btn-input block dropdown-special-toggle" type="button">
+                                <span class="result">
+                                    <span class="text-lightc">Wybierz</span>
+                                </span>
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu validate" role="menu">
+                                <li role="presentation">
+                                    <div class="form-group checkbox lightc-text small-text centered m-b-14">
+                                        <a href="javascript:void(0);" onclick="checkAllCheckboxes(this);" class="select-all"> Zaznacz/odznacz wszystkie </a>
+                                        <div class="choose-group m-b-14" id="appendhere">
+
+                                        </div>
+                                        <a href="#" title="" id="confirmDepartment" class="btn btn-primary-bordered btn-sm js-accept-dropdown">Zatwierdź</a>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                        
+                        <span class="field-validation-valid text-danger" data-valmsg-for="Department" data-valmsg-replace="true"></span>
+
+                    </div>
+                    <div class="form-group withselect required">
+                        <label for="Service">Usługa</label>
+                        <select class="form-control" data-val="true" data-val-number="Pole Usługa musi być liczbą." data-val-range="Wymagane jest wybranie usługi" data-val-range-max="2147483647" data-val-range-min="1" data-val-required="Wymagane jest wybranie usługi" id="ListOfServices" name="Service" placeholder="Wybierz"></select>
+                        <span class="field-validation-valid text-danger" data-valmsg-for="Service" data-valmsg-replace="true"></span>
+                    </div>
+                    <div class="form-group required">
+                        <label for="VisitDateFrom">Data wizyty</label>
+                        <div class="date-range">
+                            <i class="ti-calendar date-range-selector"></i>
+                            <input class="form-control " type="text" value="" data-toggle="popover" data-placement="bottom" data-content="cos" data-dstart="today" data-dfrom="2020-01-03 00:00:00" data-dto="2020-01-31 00:00:00">
+                            <input class="date1 hidden" data-val="true" data-val-date="Pole Data wizyty musi być datą." data-val-datemustbeequalorgreaterthancurrentdate="Data nie może być wcześniejsza niż obecna." data-val-required="Pole wymagane" id="VisitDateFrom" name="VisitDateFrom" type="text" value="2020-01-03" />
+                            <input class="date2 hidden" data-val="true" data-val-date="Pole Data wizyty musi być datą." data-val-datemustbeequalorgreaterthancurrentdate="Data nie może być wcześniejsza niż obecna." data-val-required="Pole wymagane" id="VisitDateTo" name="VisitDateTo" type="text" value="2020-01-31" />
+
+                        </div>
+                        <span class="field-validation-valid text-danger" data-valmsg-for="VisitDateFrom" data-valmsg-replace="true"></span>
+                        <span class="field-validation-valid text-danger" data-valmsg-for="VisitDateTo" data-valmsg-replace="true"></span>
+
+                    </div>
+                    <input data-val="true" data-val-number="Pole VisitToCancelId musi być liczbą." id="VisitToCancelId" name="VisitToCancelId" type="hidden" value="59833481" />
+                </div>
+            </div>
+            <p class="side-text text-center required-form-info">Pola obowiązkowe</p>
+
+            <div class="row text-center" id="YouHaveReferral" style="display: none;">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+                    <h4>Posiadasz skierowanie na to badanie</h4>
+                </div>
+            </div>
+
+            <div id="dont-have-ref-cc" style="display: none;" class="row text-center">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+                    <p>
+                        Jeśli posiadasz skierowanie na to badanie w formie papierowej i chcesz je zrealizować w ramach swojego abonamentu, uzupełnij dane ze skierowania lub skontaktuj się z infolinią pod numerem 22 23 07 007 lub +48 660 304 007.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+                    <h5 id="exam-info" class="text-info text-center">Wykonanie tego badania wymaga przygotowania</h5>
+                    <div id="Instructions"></div>
+                </div>
+            </div>
+
+            <div id="dont-have-ref" class="row" style="display: none;">
+                <div id="ref-mandatory-txt" class="col-xs-12 text-center" style="display: none;"><p></p></div>
+                <div class="col-xs-12 text-center"><h4>Skierowanie</h4></div>
+                <div class="col-lg-4 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 ref-paper">
+                    <p>
+                        <input type="hidden" id="HDateIssued" name="DateIssued" value="2020-01-03" />
+                        <span class="block text-lightc text-small lh-21"><label for="DateIssued">Data wystawienia</label></span>
+                        <input type="text" id="DateIssued" class="form-control txt-date-picker" value="2020-01-03" />
+                        <span class="field-validation-valid text-danger" data-valmsg-for="DateIssued" data-valmsg-replace="true"></span>
+                    </p>
+                    <p>
+                        <span class="block text-lightc text-small lh-21"><label for="IssuedBy">Podmiot zlecający</label></span>
+                        <input class="form-control ref-ver" data-val="true" data-val-required="Pole wymagane" id="IssuedBy" name="IssuedBy" placeholder="NIP lub nazwa" type="text" value="" />
+                        <span class="field-validation-valid text-danger" data-valmsg-for="IssuedBy" data-valmsg-replace="true">Pole wymagane</span>
+                    </p>
+                    <p>
+                        <span class="block text-lightc text-small lh-21"><label for="IssuingDoctor">Lekarz zlecający</label></span>
+                        <input class="form-control ref-ver" data-val="true" data-val-required="Pole wymagane" id="IssuingDoctor" name="IssuingDoctor" placeholder="Imię i nazwisko" type="text" value="" />
+                        <span class="field-validation-valid text-danger" data-valmsg-for="IssuingDoctor" data-valmsg-replace="true">Pole wymagane</span>
+                    </p>
+                </div>
+                <div class="col-lg-1 col-md-12 text-center ref-no" style="margin-top:1rem"><h4>lub</h4></div>
+                <div class="col-lg-3 col-lg-offset-0 col-md-10 col-md-offset-1 col-sm-12 text-center ref-no">
+                    <button id="book-no-ref" class="btn btn-primary" tyle="button">Um&#243;w odpłatnie</button>
+                </div>
+            </div>
+
+            <div id="dont-have-ref-remember" style="display: none;" class="row text-center">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+                    <p>
+                        <strong>Pamiętaj</strong>, aby na wizytę zabrać ze sobą papierową wersję skierowania. Będzie ono podstawą do wykonania usługi w ramach posiadanego abonamentu. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="buttons text-center">
+
+                <input id="sbtn" type="submit" class=" btn btn-primary btn-lg" onclick="VerifyEnelFast();validateRules(event);unblockControl('#ListOfTypes');unblockControl('#ListOfServices');validateCheckboxes(this);setValueForSpecifiedId('#CurrentPage', 1);customValidate();" value="Szukaj" />
+            </div>
+        </div>
+    </section>
+</form>
+
+
+<div id="Results">
+
+
+    <div class="container">
+        <div class="row buttons m-b-14">
+            <div class="col-sm-6 col-sm-offset-3">
+                    <div class="text-center">
+                        <input type="submit" class="btn btn-warning btn-lg" id="SearchAgain" value="Wyszukaj ponownie" />
+                    </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="pull-right m-t-14" style="padding-right: 14px">
+                    <div class="title-badge color2 small-padding m-t-14">Znalezione wizyty (11)</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row text-center hidden">
+            <p class="text-small text-normal text-vam lh-21 search-summary text-lightc">
+            </p>
+        </div>
+    </div>
+
+        <div class="container">
+            <div class="box-visit enel-cm">
+                    <div class="row header">
+                        <div class="col-sm-12">
+                            <p class="pull-left">
+                                <img src="/img/layout/enelcm.png" /><span>Centrum Medyczne</span>
+                            </p>
+                        </div>
+                    </div>
+                <div class="row row-search">
+                    <div class="col-md-3 col-lg-2 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            <i class="ti-calendar"></i>&nbsp;25.01<span class="text-small text-lightc text-normal">&nbsp;&nbsp;sobota</span>
+                        </p>
+                        <p class="margin-3 text-lead text-bold">
+                            <i class="ti-alarm-clock"></i>&nbsp;08:20 - 08:40
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            Konsultacja ginekologiczna
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-id-badge text-vam "></i><span class="text-small text-normal text-vam lh-21">lekarz Albarudi Firas</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-location-pin text-vam "></i>
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <span class="text-small text-normal text-vam lh-21">Oddział Blue City, Al. Jerozolimskie  179 Warszawa</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6">
+                                                    <p class="margin-3 text-lead  text-bold text-lightc">
+                                <span class="text-small text-normal text-vam lh-21">Cena: 0,00 zł</span>
+                            </p>
+                    </div>
+
+                    <div class="col-md-12 col-lg-2 col-sm-12 text-right">
+                            <a href="" title="" class="btn btn-primary makeReservationButton" data-toggle="modal" data-target="#reservationModal" onclick='makeReservation(&#39;61143&#39;, &#39;2020-01-25 00:00:00&#39;, &#39;08:20:00&#39;, &#39;08:40:00&#39;, &#39;303&#39;, &#39;2852&#39;, &#39;59833481&#39;, &quot;    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DepartmentName\&quot;\u003eOddział\u003c/label\u003e\u003c/span\u003e\r\n            Oddział Blue City\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitDate\&quot;\u003eData\u003c/label\u003e\u003c/span\u003e\r\n            sobota 25.01.2020\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitHour\&quot;\u003eGodzina\u003c/label\u003e\u003c/span\u003e\r\n            08:20\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_ServiceName\&quot;\u003eUsługa\u003c/label\u003e\u003c/span\u003e\r\n            Konsultacja ginekologiczna\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DoctorName\&quot;\u003eLekarz\u003c/label\u003e\u003c/span\u003e\r\n            Albarudi Firas\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;YourPrice\&quot;\u003eCena dla Ciebie\u003c/label\u003e\u003c/span\u003e\r\n            0,00 zł\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-12\&quot;\u003e\r\n        \u003cp\u003e\r\n            \r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n&quot;, &#39;1&#39;, &#39;49825ac6-5dac-4470-b981-707ff9cd34fc&#39;, &#39;0&#39;, &#39;Przejdź do płatności&#39;, false, &#39;-1&#39;, false, false)'>
+                                
+
+                                Zmień termin
+                            </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box-visit enel-cm">
+                    <div class="row header">
+                        <div class="col-sm-12">
+                            <p class="pull-left">
+                                <img src="/img/layout/enelcm.png" /><span>Centrum Medyczne</span>
+                            </p>
+                        </div>
+                    </div>
+                <div class="row row-search">
+                    <div class="col-md-3 col-lg-2 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            <i class="ti-calendar"></i>&nbsp;26.01<span class="text-small text-lightc text-normal">&nbsp;&nbsp;niedziela</span>
+                        </p>
+                        <p class="margin-3 text-lead text-bold">
+                            <i class="ti-alarm-clock"></i>&nbsp;10:00 - 10:20
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            Konsultacja ginekologiczna
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-id-badge text-vam "></i><span class="text-small text-normal text-vam lh-21">lekarz Albarudi Firas</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-location-pin text-vam "></i>
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <span class="text-small text-normal text-vam lh-21">Oddział Blue City, Al. Jerozolimskie  179 Warszawa</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6">
+                                                    <p class="margin-3 text-lead  text-bold text-lightc">
+                                <span class="text-small text-normal text-vam lh-21">Cena: 0,00 zł</span>
+                            </p>
+                    </div>
+
+                    <div class="col-md-12 col-lg-2 col-sm-12 text-right">
+                            <a href="" title="" class="btn btn-primary makeReservationButton" data-toggle="modal" data-target="#reservationModal" onclick='makeReservation(&#39;61143&#39;, &#39;2020-01-26 00:00:00&#39;, &#39;10:00:00&#39;, &#39;10:20:00&#39;, &#39;303&#39;, &#39;2852&#39;, &#39;59833481&#39;, &quot;    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DepartmentName\&quot;\u003eOddział\u003c/label\u003e\u003c/span\u003e\r\n            Oddział Blue City\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitDate\&quot;\u003eData\u003c/label\u003e\u003c/span\u003e\r\n            niedziela 26.01.2020\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitHour\&quot;\u003eGodzina\u003c/label\u003e\u003c/span\u003e\r\n            10:00\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_ServiceName\&quot;\u003eUsługa\u003c/label\u003e\u003c/span\u003e\r\n            Konsultacja ginekologiczna\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DoctorName\&quot;\u003eLekarz\u003c/label\u003e\u003c/span\u003e\r\n            Albarudi Firas\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;YourPrice\&quot;\u003eCena dla Ciebie\u003c/label\u003e\u003c/span\u003e\r\n            0,00 zł\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-12\&quot;\u003e\r\n        \u003cp\u003e\r\n            \r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n&quot;, &#39;1&#39;, &#39;49825ac6-5dac-4470-b981-707ff9cd34fc&#39;, &#39;0&#39;, &#39;Przejdź do płatności&#39;, false, &#39;-1&#39;, false, false)'>
+                                
+
+                                Zmień termin
+                            </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box-visit enel-cm">
+                    <div class="row header">
+                        <div class="col-sm-12">
+                            <p class="pull-left">
+                                <img src="/img/layout/enelcm.png" /><span>Centrum Medyczne</span>
+                            </p>
+                        </div>
+                    </div>
+                <div class="row row-search">
+                    <div class="col-md-3 col-lg-2 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            <i class="ti-calendar"></i>&nbsp;26.01<span class="text-small text-lightc text-normal">&nbsp;&nbsp;niedziela</span>
+                        </p>
+                        <p class="margin-3 text-lead text-bold">
+                            <i class="ti-alarm-clock"></i>&nbsp;11:20 - 11:40
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            Konsultacja ginekologiczna
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-id-badge text-vam "></i><span class="text-small text-normal text-vam lh-21">lekarz Albarudi Firas</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-location-pin text-vam "></i>
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <span class="text-small text-normal text-vam lh-21">Oddział Blue City, Al. Jerozolimskie  179 Warszawa</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6">
+                                                    <p class="margin-3 text-lead  text-bold text-lightc">
+                                <span class="text-small text-normal text-vam lh-21">Cena: 0,00 zł</span>
+                            </p>
+                    </div>
+
+                    <div class="col-md-12 col-lg-2 col-sm-12 text-right">
+                            <a href="" title="" class="btn btn-primary makeReservationButton" data-toggle="modal" data-target="#reservationModal" onclick='makeReservation(&#39;61143&#39;, &#39;2020-01-26 00:00:00&#39;, &#39;11:20:00&#39;, &#39;11:40:00&#39;, &#39;303&#39;, &#39;2852&#39;, &#39;59833481&#39;, &quot;    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DepartmentName\&quot;\u003eOddział\u003c/label\u003e\u003c/span\u003e\r\n            Oddział Blue City\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitDate\&quot;\u003eData\u003c/label\u003e\u003c/span\u003e\r\n            niedziela 26.01.2020\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitHour\&quot;\u003eGodzina\u003c/label\u003e\u003c/span\u003e\r\n            11:20\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_ServiceName\&quot;\u003eUsługa\u003c/label\u003e\u003c/span\u003e\r\n            Konsultacja ginekologiczna\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DoctorName\&quot;\u003eLekarz\u003c/label\u003e\u003c/span\u003e\r\n            Albarudi Firas\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;YourPrice\&quot;\u003eCena dla Ciebie\u003c/label\u003e\u003c/span\u003e\r\n            0,00 zł\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-12\&quot;\u003e\r\n        \u003cp\u003e\r\n            \r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n&quot;, &#39;1&#39;, &#39;49825ac6-5dac-4470-b981-707ff9cd34fc&#39;, &#39;0&#39;, &#39;Przejdź do płatności&#39;, false, &#39;-1&#39;, false, false)'>
+                                
+
+                                Zmień termin
+                            </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box-visit enel-cm">
+                    <div class="row header">
+                        <div class="col-sm-12">
+                            <p class="pull-left">
+                                <img src="/img/layout/enelcm.png" /><span>Centrum Medyczne</span>
+                            </p>
+                        </div>
+                    </div>
+                <div class="row row-search">
+                    <div class="col-md-3 col-lg-2 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            <i class="ti-calendar"></i>&nbsp;26.01<span class="text-small text-lightc text-normal">&nbsp;&nbsp;niedziela</span>
+                        </p>
+                        <p class="margin-3 text-lead text-bold">
+                            <i class="ti-alarm-clock"></i>&nbsp;11:40 - 12:00
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            Konsultacja ginekologiczna
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-id-badge text-vam "></i><span class="text-small text-normal text-vam lh-21">lekarz Albarudi Firas</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-location-pin text-vam "></i>
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <span class="text-small text-normal text-vam lh-21">Oddział Blue City, Al. Jerozolimskie  179 Warszawa</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6">
+                                                    <p class="margin-3 text-lead  text-bold text-lightc">
+                                <span class="text-small text-normal text-vam lh-21">Cena: 0,00 zł</span>
+                            </p>
+                    </div>
+
+                    <div class="col-md-12 col-lg-2 col-sm-12 text-right">
+                            <a href="" title="" class="btn btn-primary makeReservationButton" data-toggle="modal" data-target="#reservationModal" onclick='makeReservation(&#39;61143&#39;, &#39;2020-01-26 00:00:00&#39;, &#39;11:40:00&#39;, &#39;12:00:00&#39;, &#39;303&#39;, &#39;2852&#39;, &#39;59833481&#39;, &quot;    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DepartmentName\&quot;\u003eOddział\u003c/label\u003e\u003c/span\u003e\r\n            Oddział Blue City\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitDate\&quot;\u003eData\u003c/label\u003e\u003c/span\u003e\r\n            niedziela 26.01.2020\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitHour\&quot;\u003eGodzina\u003c/label\u003e\u003c/span\u003e\r\n            11:40\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_ServiceName\&quot;\u003eUsługa\u003c/label\u003e\u003c/span\u003e\r\n            Konsultacja ginekologiczna\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DoctorName\&quot;\u003eLekarz\u003c/label\u003e\u003c/span\u003e\r\n            Albarudi Firas\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;YourPrice\&quot;\u003eCena dla Ciebie\u003c/label\u003e\u003c/span\u003e\r\n            0,00 zł\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-12\&quot;\u003e\r\n        \u003cp\u003e\r\n            \r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n&quot;, &#39;1&#39;, &#39;49825ac6-5dac-4470-b981-707ff9cd34fc&#39;, &#39;0&#39;, &#39;Przejdź do płatności&#39;, false, &#39;-1&#39;, false, false)'>
+                                
+
+                                Zmień termin
+                            </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box-visit enel-cm">
+                    <div class="row header">
+                        <div class="col-sm-12">
+                            <p class="pull-left">
+                                <img src="/img/layout/enelcm.png" /><span>Centrum Medyczne</span>
+                            </p>
+                        </div>
+                    </div>
+                <div class="row row-search">
+                    <div class="col-md-3 col-lg-2 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            <i class="ti-calendar"></i>&nbsp;26.01<span class="text-small text-lightc text-normal">&nbsp;&nbsp;niedziela</span>
+                        </p>
+                        <p class="margin-3 text-lead text-bold">
+                            <i class="ti-alarm-clock"></i>&nbsp;15:20 - 15:40
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            Konsultacja ginekologiczna
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-id-badge text-vam "></i><span class="text-small text-normal text-vam lh-21">lekarz Albarudi Firas</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-location-pin text-vam "></i>
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <span class="text-small text-normal text-vam lh-21">Oddział Blue City, Al. Jerozolimskie  179 Warszawa</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6">
+                                                    <p class="margin-3 text-lead  text-bold text-lightc">
+                                <span class="text-small text-normal text-vam lh-21">Cena: 0,00 zł</span>
+                            </p>
+                    </div>
+
+                    <div class="col-md-12 col-lg-2 col-sm-12 text-right">
+                            <a href="" title="" class="btn btn-primary makeReservationButton" data-toggle="modal" data-target="#reservationModal" onclick='makeReservation(&#39;61143&#39;, &#39;2020-01-26 00:00:00&#39;, &#39;15:20:00&#39;, &#39;15:40:00&#39;, &#39;303&#39;, &#39;2852&#39;, &#39;59833481&#39;, &quot;    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DepartmentName\&quot;\u003eOddział\u003c/label\u003e\u003c/span\u003e\r\n            Oddział Blue City\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitDate\&quot;\u003eData\u003c/label\u003e\u003c/span\u003e\r\n            niedziela 26.01.2020\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitHour\&quot;\u003eGodzina\u003c/label\u003e\u003c/span\u003e\r\n            15:20\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_ServiceName\&quot;\u003eUsługa\u003c/label\u003e\u003c/span\u003e\r\n            Konsultacja ginekologiczna\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DoctorName\&quot;\u003eLekarz\u003c/label\u003e\u003c/span\u003e\r\n            Albarudi Firas\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;YourPrice\&quot;\u003eCena dla Ciebie\u003c/label\u003e\u003c/span\u003e\r\n            0,00 zł\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-12\&quot;\u003e\r\n        \u003cp\u003e\r\n            \r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n&quot;, &#39;1&#39;, &#39;49825ac6-5dac-4470-b981-707ff9cd34fc&#39;, &#39;0&#39;, &#39;Przejdź do płatności&#39;, false, &#39;-1&#39;, false, false)'>
+                                
+
+                                Zmień termin
+                            </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box-visit enel-cm">
+                    <div class="row header">
+                        <div class="col-sm-12">
+                            <p class="pull-left">
+                                <img src="/img/layout/enelcm.png" /><span>Centrum Medyczne</span>
+                            </p>
+                        </div>
+                    </div>
+                <div class="row row-search">
+                    <div class="col-md-3 col-lg-2 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            <i class="ti-calendar"></i>&nbsp;26.01<span class="text-small text-lightc text-normal">&nbsp;&nbsp;niedziela</span>
+                        </p>
+                        <p class="margin-3 text-lead text-bold">
+                            <i class="ti-alarm-clock"></i>&nbsp;16:40 - 17:00
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            Konsultacja ginekologiczna
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-id-badge text-vam "></i><span class="text-small text-normal text-vam lh-21">lekarz Albarudi Firas</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-location-pin text-vam "></i>
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <span class="text-small text-normal text-vam lh-21">Oddział Blue City, Al. Jerozolimskie  179 Warszawa</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6">
+                                                    <p class="margin-3 text-lead  text-bold text-lightc">
+                                <span class="text-small text-normal text-vam lh-21">Cena: 0,00 zł</span>
+                            </p>
+                    </div>
+
+                    <div class="col-md-12 col-lg-2 col-sm-12 text-right">
+                            <a href="" title="" class="btn btn-primary makeReservationButton" data-toggle="modal" data-target="#reservationModal" onclick='makeReservation(&#39;61143&#39;, &#39;2020-01-26 00:00:00&#39;, &#39;16:40:00&#39;, &#39;17:00:00&#39;, &#39;303&#39;, &#39;2852&#39;, &#39;59833481&#39;, &quot;    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DepartmentName\&quot;\u003eOddział\u003c/label\u003e\u003c/span\u003e\r\n            Oddział Blue City\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitDate\&quot;\u003eData\u003c/label\u003e\u003c/span\u003e\r\n            niedziela 26.01.2020\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitHour\&quot;\u003eGodzina\u003c/label\u003e\u003c/span\u003e\r\n            16:40\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_ServiceName\&quot;\u003eUsługa\u003c/label\u003e\u003c/span\u003e\r\n            Konsultacja ginekologiczna\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DoctorName\&quot;\u003eLekarz\u003c/label\u003e\u003c/span\u003e\r\n            Albarudi Firas\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;YourPrice\&quot;\u003eCena dla Ciebie\u003c/label\u003e\u003c/span\u003e\r\n            0,00 zł\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-12\&quot;\u003e\r\n        \u003cp\u003e\r\n            \r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n&quot;, &#39;1&#39;, &#39;49825ac6-5dac-4470-b981-707ff9cd34fc&#39;, &#39;0&#39;, &#39;Przejdź do płatności&#39;, false, &#39;-1&#39;, false, false)'>
+                                
+
+                                Zmień termin
+                            </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box-visit enel-cm">
+                    <div class="row header">
+                        <div class="col-sm-12">
+                            <p class="pull-left">
+                                <img src="/img/layout/enelcm.png" /><span>Centrum Medyczne</span>
+                            </p>
+                        </div>
+                    </div>
+                <div class="row row-search">
+                    <div class="col-md-3 col-lg-2 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            <i class="ti-calendar"></i>&nbsp;27.01<span class="text-small text-lightc text-normal">&nbsp;&nbsp;poniedziałek</span>
+                        </p>
+                        <p class="margin-3 text-lead text-bold">
+                            <i class="ti-alarm-clock"></i>&nbsp;11:00 - 11:20
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            Konsultacja ginekologiczna
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-id-badge text-vam "></i><span class="text-small text-normal text-vam lh-21">lekarz Albarudi Firas</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-location-pin text-vam "></i>
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <span class="text-small text-normal text-vam lh-21">Oddział Blue City, Al. Jerozolimskie  179 Warszawa</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6">
+                                                    <p class="margin-3 text-lead  text-bold text-lightc">
+                                <span class="text-small text-normal text-vam lh-21">Cena: 0,00 zł</span>
+                            </p>
+                    </div>
+
+                    <div class="col-md-12 col-lg-2 col-sm-12 text-right">
+                            <a href="" title="" class="btn btn-primary makeReservationButton" data-toggle="modal" data-target="#reservationModal" onclick='makeReservation(&#39;61143&#39;, &#39;2020-01-27 00:00:00&#39;, &#39;11:00:00&#39;, &#39;11:20:00&#39;, &#39;303&#39;, &#39;2852&#39;, &#39;59833481&#39;, &quot;    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DepartmentName\&quot;\u003eOddział\u003c/label\u003e\u003c/span\u003e\r\n            Oddział Blue City\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitDate\&quot;\u003eData\u003c/label\u003e\u003c/span\u003e\r\n            poniedziałek 27.01.2020\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitHour\&quot;\u003eGodzina\u003c/label\u003e\u003c/span\u003e\r\n            11:00\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_ServiceName\&quot;\u003eUsługa\u003c/label\u003e\u003c/span\u003e\r\n            Konsultacja ginekologiczna\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DoctorName\&quot;\u003eLekarz\u003c/label\u003e\u003c/span\u003e\r\n            Albarudi Firas\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;YourPrice\&quot;\u003eCena dla Ciebie\u003c/label\u003e\u003c/span\u003e\r\n            0,00 zł\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-12\&quot;\u003e\r\n        \u003cp\u003e\r\n            \r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n&quot;, &#39;1&#39;, &#39;49825ac6-5dac-4470-b981-707ff9cd34fc&#39;, &#39;0&#39;, &#39;Przejdź do płatności&#39;, false, &#39;-1&#39;, false, false)'>
+                                
+
+                                Zmień termin
+                            </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box-visit enel-cm">
+                    <div class="row header">
+                        <div class="col-sm-12">
+                            <p class="pull-left">
+                                <img src="/img/layout/enelcm.png" /><span>Centrum Medyczne</span>
+                            </p>
+                        </div>
+                    </div>
+                <div class="row row-search">
+                    <div class="col-md-3 col-lg-2 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            <i class="ti-calendar"></i>&nbsp;27.01<span class="text-small text-lightc text-normal">&nbsp;&nbsp;poniedziałek</span>
+                        </p>
+                        <p class="margin-3 text-lead text-bold">
+                            <i class="ti-alarm-clock"></i>&nbsp;11:40 - 12:00
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            Konsultacja ginekologiczna
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-id-badge text-vam "></i><span class="text-small text-normal text-vam lh-21">lekarz Albarudi Firas</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-location-pin text-vam "></i>
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <span class="text-small text-normal text-vam lh-21">Oddział Blue City, Al. Jerozolimskie  179 Warszawa</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6">
+                                                    <p class="margin-3 text-lead  text-bold text-lightc">
+                                <span class="text-small text-normal text-vam lh-21">Cena: 0,00 zł</span>
+                            </p>
+                    </div>
+
+                    <div class="col-md-12 col-lg-2 col-sm-12 text-right">
+                            <a href="" title="" class="btn btn-primary makeReservationButton" data-toggle="modal" data-target="#reservationModal" onclick='makeReservation(&#39;61143&#39;, &#39;2020-01-27 00:00:00&#39;, &#39;11:40:00&#39;, &#39;12:00:00&#39;, &#39;303&#39;, &#39;2852&#39;, &#39;59833481&#39;, &quot;    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DepartmentName\&quot;\u003eOddział\u003c/label\u003e\u003c/span\u003e\r\n            Oddział Blue City\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitDate\&quot;\u003eData\u003c/label\u003e\u003c/span\u003e\r\n            poniedziałek 27.01.2020\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitHour\&quot;\u003eGodzina\u003c/label\u003e\u003c/span\u003e\r\n            11:40\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_ServiceName\&quot;\u003eUsługa\u003c/label\u003e\u003c/span\u003e\r\n            Konsultacja ginekologiczna\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DoctorName\&quot;\u003eLekarz\u003c/label\u003e\u003c/span\u003e\r\n            Albarudi Firas\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;YourPrice\&quot;\u003eCena dla Ciebie\u003c/label\u003e\u003c/span\u003e\r\n            0,00 zł\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-12\&quot;\u003e\r\n        \u003cp\u003e\r\n            \r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n&quot;, &#39;1&#39;, &#39;49825ac6-5dac-4470-b981-707ff9cd34fc&#39;, &#39;0&#39;, &#39;Przejdź do płatności&#39;, false, &#39;-1&#39;, false, false)'>
+                                
+
+                                Zmień termin
+                            </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box-visit enel-cm">
+                    <div class="row header">
+                        <div class="col-sm-12">
+                            <p class="pull-left">
+                                <img src="/img/layout/enelcm.png" /><span>Centrum Medyczne</span>
+                            </p>
+                        </div>
+                    </div>
+                <div class="row row-search">
+                    <div class="col-md-3 col-lg-2 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            <i class="ti-calendar"></i>&nbsp;27.01<span class="text-small text-lightc text-normal">&nbsp;&nbsp;poniedziałek</span>
+                        </p>
+                        <p class="margin-3 text-lead text-bold">
+                            <i class="ti-alarm-clock"></i>&nbsp;12:40 - 13:00
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            Konsultacja ginekologiczna
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-id-badge text-vam "></i><span class="text-small text-normal text-vam lh-21">lekarz Albarudi Firas</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-location-pin text-vam "></i>
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <span class="text-small text-normal text-vam lh-21">Oddział Blue City, Al. Jerozolimskie  179 Warszawa</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6">
+                                                    <p class="margin-3 text-lead  text-bold text-lightc">
+                                <span class="text-small text-normal text-vam lh-21">Cena: 0,00 zł</span>
+                            </p>
+                    </div>
+
+                    <div class="col-md-12 col-lg-2 col-sm-12 text-right">
+                            <a href="" title="" class="btn btn-primary makeReservationButton" data-toggle="modal" data-target="#reservationModal" onclick='makeReservation(&#39;61143&#39;, &#39;2020-01-27 00:00:00&#39;, &#39;12:40:00&#39;, &#39;13:00:00&#39;, &#39;303&#39;, &#39;2852&#39;, &#39;59833481&#39;, &quot;    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DepartmentName\&quot;\u003eOddział\u003c/label\u003e\u003c/span\u003e\r\n            Oddział Blue City\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitDate\&quot;\u003eData\u003c/label\u003e\u003c/span\u003e\r\n            poniedziałek 27.01.2020\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitHour\&quot;\u003eGodzina\u003c/label\u003e\u003c/span\u003e\r\n            12:40\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_ServiceName\&quot;\u003eUsługa\u003c/label\u003e\u003c/span\u003e\r\n            Konsultacja ginekologiczna\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DoctorName\&quot;\u003eLekarz\u003c/label\u003e\u003c/span\u003e\r\n            Albarudi Firas\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;YourPrice\&quot;\u003eCena dla Ciebie\u003c/label\u003e\u003c/span\u003e\r\n            0,00 zł\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-12\&quot;\u003e\r\n        \u003cp\u003e\r\n            \r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n&quot;, &#39;1&#39;, &#39;49825ac6-5dac-4470-b981-707ff9cd34fc&#39;, &#39;0&#39;, &#39;Przejdź do płatności&#39;, false, &#39;-1&#39;, false, false)'>
+                                
+
+                                Zmień termin
+                            </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box-visit enel-cm">
+                    <div class="row header">
+                        <div class="col-sm-12">
+                            <p class="pull-left">
+                                <img src="/img/layout/enelcm.png" /><span>Centrum Medyczne</span>
+                            </p>
+                        </div>
+                    </div>
+                <div class="row row-search">
+                    <div class="col-md-3 col-lg-2 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            <i class="ti-calendar"></i>&nbsp;27.01<span class="text-small text-lightc text-normal">&nbsp;&nbsp;poniedziałek</span>
+                        </p>
+                        <p class="margin-3 text-lead text-bold">
+                            <i class="ti-alarm-clock"></i>&nbsp;13:00 - 13:20
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold">
+                            Konsultacja ginekologiczna
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-id-badge text-vam "></i><span class="text-small text-normal text-vam lh-21">lekarz Albarudi Firas</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <i class="ti-location-pin text-vam "></i>
+                        </p>
+                        <p class="margin-3 text-lead  text-bold text-lightc">
+                            <span class="text-small text-normal text-vam lh-21">Oddział Blue City, Al. Jerozolimskie  179 Warszawa</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6">
+                                                    <p class="margin-3 text-lead  text-bold text-lightc">
+                                <span class="text-small text-normal text-vam lh-21">Cena: 0,00 zł</span>
+                            </p>
+                    </div>
+
+                    <div class="col-md-12 col-lg-2 col-sm-12 text-right">
+                            <a href="" title="" class="btn btn-primary makeReservationButton" data-toggle="modal" data-target="#reservationModal" onclick='makeReservation(&#39;61143&#39;, &#39;2020-01-27 00:00:00&#39;, &#39;13:00:00&#39;, &#39;13:20:00&#39;, &#39;303&#39;, &#39;2852&#39;, &#39;59833481&#39;, &quot;    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DepartmentName\&quot;\u003eOddział\u003c/label\u003e\u003c/span\u003e\r\n            Oddział Blue City\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitDate\&quot;\u003eData\u003c/label\u003e\u003c/span\u003e\r\n            poniedziałek 27.01.2020\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_VisitHour\&quot;\u003eGodzina\u003c/label\u003e\u003c/span\u003e\r\n            13:00\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-6\&quot;\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_ServiceName\&quot;\u003eUsługa\u003c/label\u003e\u003c/span\u003e\r\n            Konsultacja ginekologiczna\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;visitModel_DoctorName\&quot;\u003eLekarz\u003c/label\u003e\u003c/span\u003e\r\n            Albarudi Firas\r\n        \u003c/p\u003e\r\n        \u003cp\u003e\r\n            \u003cspan class=\&quot;block text-lightc text-small lh-21\&quot;\u003e\u003clabel for=\&quot;YourPrice\&quot;\u003eCena dla Ciebie\u003c/label\u003e\u003c/span\u003e\r\n            0,00 zł\r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;col-xs-12\&quot;\u003e\r\n        \u003cp\u003e\r\n            \r\n        \u003c/p\u003e\r\n    \u003c/div\u003e\r\n&quot;, &#39;1&#39;, &#39;49825ac6-5dac-4470-b981-707ff9cd34fc&#39;, &#39;0&#39;, &#39;Przejdź do płatności&#39;, false, &#39;-1&#39;, false, false)'>
+                                
+
+                                Zmień termin
+                            </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<div class="modal fade" id="premiumModal" tabindex="-1" role="dialog" aria-labelledby="premiumModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <i class="ti-close text-normalc"></i>
+                </button>
+                <h4 class="modal-title">Enel-Med Fast</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Wizyta ENEL-MED FAST świadczona jest w wybranym przez Pacjenta oddziale, do wybranego lekarza, w wybranym podczas umawiania Wizyty ENEL-MED FAST terminie.
+                    <br />Proponowane terminy odbycia Wizyty ENEL-MED FAST obejmują okres dwóch kolejnych dni, tj. dzień, w którym Wizyta ENEL-MED FAST jest umawiana oraz dzień następny.
+                </p>
+            </div>
+            <div class="modal-footer text-left">
+                <a href="" id="SearchPremiumBtn" type="button" class="btn btn-primary">Szukaj</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+            <p>Jeśli zależy Ci na wcześniejszym terminie możesz zmienić filtry wyszukiwania:
+• plac&#243;wkę
+• lekarza</p>
+        </div>
+    </div>
+
+<div class="modal fade" id="reservationModal" tabindex="-1" role="dialog" aria-labelledby="reservationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <i class="ti-close text-normalc"></i>
+                </button>
+                <h4 class="modal-title">Podsumowanie</h4>
+            </div>
+            <div class="modal-body clearfix" id="ReservationPopupContent"></div>
+            <div class="modal-body" id="reservationServiceResult">
+                <ul></ul>
+            </div>
+            <div class="modal-footer text-left">
+                <div id="reservation-wait">
+                    <div class="col-lg-12">
+                        <p>Trwa rezerwowanie terminu...</p>
+                    </div>
+                </div>
+                <div id="ftConfirm">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <a href="#" type="button" class="btn btn-primary" id="confirmReservationButton">
+                            Potwierdzam
+                        </a>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 timeout-info">
+                        <div class="acp-rules">
+                            <input class="AcceptedRules" data-war="#AcceptedRulesWarning" id="AcceptedRules" name="AcceptedRules" style="margin-top: 21px;" type="checkbox" value="true" /><input name="AcceptedRules" type="hidden" value="false" />
+                            <label for="AcceptedRules">Akceptuję <a href="/REGULAMIN UMAWIANIA ZA POŚREDNICTWEM SYSTEMU ON-LINE  WIZYT W ODDZIAŁACH_20170725.pdf" target="_blank">Regulamin</a> wizyt w Oddziałach</label>
+                            <p style="display: none; margin-top: 0px;" class="text-danger" id="AcceptedRulesWarning">Pole wymagane</p>
+                            <p class="m-t-21">Jeśli nie potwierdzisz um&#243;wienia wizyty, okno zamknie się automatycznie po upływie 10 minut, a wizyta nie zostanie um&#243;wiona.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="ftConfirmAndPay">
+                    <div class="col-lg-5 col-md-5 col-sm-5">
+                        <a href="#" type="button" class="btn btn-primary" id="confirmReservationAndPayButton">
+                            Potwierdzam
+                        </a>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-7 timeout-info">
+                        <div class="acp-rules">
+                            <input class="AcceptedRules" data-war="#AcceptedRulesWarningPay" id="AcceptedRulesPay" name="AcceptedRulesPay" style="margin-top: 21px;" type="checkbox" value="true" /><input name="AcceptedRulesPay" type="hidden" value="false" />
+                                <label for="AcceptedRulesPay">Akceptuję <a href="/REGULAMIN UMAWIANIA ZA POŚREDNICTWEM SYSTEMU ON-LINE  WIZYT W ODDZIAŁACH_20170725.pdf" target="_blank">Regulamin</a> wizyt w Oddziałach</label>
+                            <p style="display: none; margin-top: 0px;" class="text-danger" id="AcceptedRulesWarningPay">Pole wymagane</p>
+                            <p class="m-t-21">Jeśli nie potwierdzisz um&#243;wienia wizyty, okno zamknie się automatycznie po upływie 10 minut, a wizyta nie zostanie um&#243;wiona.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="confirmReservationModal" tabindex="-1" role="dialog" aria-labelledby="confirmReservationModalLabel" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body text-center" id="reservationConfirmationContent">
+
+                <button type="button" id="confirmedReservation" class="btn btn-primary cancel-visit" data-dismiss="modal">
+                    Zamknij
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script>
+    function invData(self) {
+        console.log(self);
+        if (self.value == '1') {
+            $('#invCompanyData').slideUp();
+            $('#invPersonalData').slideDown();
+        } else if (self.value == '2') {
+            $('#invPersonalData').slideUp();
+            $('#invCompanyData').slideDown();
+        }
+    }
+
+    $('.AcceptedRules')
+        .on('click',
+            function() {
+                if ($(this).is(':checked')) {
+                    $($(this).data('war')).hide();
+                } else {
+                    $($(this).data('war')).show();
+                }
+            });
+
+    function submitForm() {
+        $('#SearchVisitForm').submit();
+    }
+
+    var timeout;
+    $('body').on('click',
+        '.makeReservationButton',
+        function() {
+            clearTimeout(timeout);
+            timeout = setTimeout(function() {
+                    $('#reservationModal  button.close')[0].click();
+                },
+                600000);
+        });
+    $('#confirmedReservation').on('click',
+        function() {
+            // window['submitForm'].apply(window);
+        })
+    if ($('#Results').is(':parent')) {
+        $('.new-visit-form').slideUp('slow');
+
+    }
+    $('#SearchAgain').on('click',
+        function() {
+            $('.new-visit-form select.form-control').each(function() {
+                doSelect(this);
+            });
+            fireDaterange();
+            fireDate();
+            $('.new-visit-form').slideDown('slow');
+            $(this).hide();
+            $(document).off("ajaxStop");
+            $('p.search-summary').hide();
+        });
+
+    $('#SearchPremiumModalBtn').on('click',
+        function (e) {
+            e.stopPropagation();
+            e.preventDefault();
+            $('#premiumModal').modal('show');
+        });
+    $('#SearchPremiumBtn').on('click',
+        function (e) {
+            e.stopPropagation();
+            e.preventDefault();
+            $('#premiumModal').modal('hide');
+            $('#SearchPremium').val(true);
+            $('#acpt-r-p input').prop('checked', true);
+            $('#SearchAgain')[0].click();
+            setTimeout(function() {
+                $('#sbtn')[0].click();
+            }, 500);
+        });
+    $(document).ajaxStop(function() {
+        $('p.search-summary').show();
+        $('p.search-summary').html($('label[for="City"]').text() +
+            ": " +
+            $("#City option:selected").text() +
+            "&bull;" +
+            $('label[for="Department"]').text() +
+            ": " +
+            $("#checkboxdropdown span.result").text() +
+            "&bull;" +
+            $('label[for="Specialization"]').text() +
+            ": " +
+            $("#ListOfSpecialities option:selected").text() +
+            "&bull;" +
+            $('label[for="Doctor"]').text() +
+            ": " +
+            $("#checkboxdropdownDoc span.result").text() +
+            "&bull;" +
+            $('label[for="VisitDateFrom"]').text() +
+            ": od " +
+            $("#VisitDateFrom").val() +
+            " do " +
+            $("#VisitDateTo").val() +
+            "&bull;" +
+            $('label[for="VisitHoursEnum"]').text() +
+            ": " +
+            $('#VisitHoursEnum option:selected').text());
+    });
+</script>
+
+    <div class="text-center print-hide">
+        <ul class="pagination">
+                <li class="disabled print-hide"><a href="#"><i class="ti-angle-double-left"></i></a></li>
+
+            <li class="active">
+                <span>
+                    1
+                </span>
+            </li>
+
+
+                <li><a href="javascript:void(0)" onclick="setValueForSpecifiedIdAndSubmit('#CurrentPage', 2, '#SearchVisitForm')">2</a></li>
+                <li class="print-hide"><a href="javascript:void(0)" onclick="setValueForSpecifiedIdAndSubmit('#CurrentPage', 2, '#SearchVisitForm')"><i class=" ti-angle-double-right"></i></a></li>
+        </ul>
+    </div>
+
+
+</div>
+
+
+
+<script type="text/javascript">
+    function verifyRefData()
+    {
+        var missing = 0;
+        if ($('#dont-have-ref:visible').length > 0) {
+
+            if ($('#IssuedBy:visible').val() == '') {
+                $('span[data-valmsg-for="IssuedBy"]').show().text('Pole wymagane');
+                missing++;
+            } else {
+                $('span[data-valmsg-for="IssuedBy"]').hide().text('');
+            }
+            if ($('#IssuingDoctor:visible').val() == '') {
+                $('span[data-valmsg-for="IssuingDoctor"]').show().text('Pole wymagane');
+                missing++;
+            } else {
+                $('span[data-valmsg-for="IssuingDoctor"]').hide().text('');
+            }
+            if ($('span[data-valmsg-for="DateIssued"]').is(":visible") && $('span[data-valmsg-for="DateIssued"]').text() != '') {
+                missing++;
+            }
+
+        }
+        if (missing > 0)
+            return false;
+        else {
+            return true;
+        }
+    }
+
+    $(function() {
+        var currentDepartmentsRequest = null;  
+        var currentTypesRequest = null;  
+        var currentServicesRequest = null;
+        var seng = false;
+
+        var srvLock = 116;
+
+        var serialized = true
+        var selectedService = 116;
+        // $("#VisitDateFrom").datepicker();
+        //$("#VisitDateTo").datepicker();
+        $('.glyphicon[data-toggle="popover"]').popover();
+        blockControl('#checkboxdropdown button');
+        blockControl('#ListOfServices');
+        blockControl('#ListOfTypes');
+        $('#ListOfServices').closest('.form-control.select').addClass('disabled');
+        $('#ListOfTypes').closest('.form-control.select').addClass('disabled');
+
+        blockControl('#checkboxdropdownDoc button');
+        blockControl('#ForeignLanguageDoctor');
+        var doctorId = getQueryVariable("doctorID");
+        var specialityId = getQueryVariable("specialityID");
+        var selectedCity = {"City":1,"Department":[7],"ServiceType":5,"Service":116,"Doctor":[61142],"VisitDateFrom":"\/Date(1578006000000)\/","VisitDateTo":"\/Date(1580425200000)\/","ReferralRequired":false,"HasReferral":false,"BookWithoutReferral":false,"ReferralId":-1,"PaperReferral":false,"DateIssued":"\/Date(1578044551713)\/","IssuedBy":"","IssuingDoctor":"","VisitHours":0,"VisitHoursEnum":0,"ForeignLanguageDoctor":false,"VisitToCancelId":59833481,"SearchAgain":null,"Results":[{"ServiceTypeID":0,"VisitDate":"\/Date(1579906800000)\/","VisitHour":{"Hours":8,"Minutes":20,"Seconds":0,"Milliseconds":0,"Ticks":300000000000,"Days":0,"TotalDays":0.34722222222222221,"TotalHours":8.3333333333333321,"TotalMilliseconds":30000000,"TotalMinutes":500,"TotalSeconds":30000},"ServiceName":"Konsultacja ginekologiczna","DoctorName":"Albarudi","Price":195.0000,"YourPrice":0.0000,"DepartmentName":"Oddział Blue City","VisitEndHour":{"Hours":8,"Minutes":40,"Seconds":0,"Milliseconds":0,"Ticks":312000000000,"Days":0,"TotalDays":0.3611111111111111,"TotalHours":8.6666666666666661,"TotalMilliseconds":31200000,"TotalMinutes":520,"TotalSeconds":31200},"DoctorSurName":"Firas","Description":"Oddział Blue City, Al. Jerozolimskie  179 Warszawa","DoctorId":61143,"DepartmentId":7,"DoctorTitle":"lekarz","DoctorOnlineID":61143,"ServiceID":2852,"ServiceOnlineID":0,"RoomNumber":303,"IsVisitToCancel":false,"CityId":0,"VisitId":0,"VisitID":0,"DepartmentStreet":null,"DepartmentStreetNumber":null,"DepartmentCode":null,"InstructionId":0,"Instruction":null,"IsDoctorActive":false,"IsDepartmentClosed":false,"IsSpecialityReservation":false,"DisallowCancel":false,"HasDocumentation":false,"Epayment":false,"Stars":false,"Stomatologia":false,"IsEnelSport":false,"HomeVisit":false,"NoPrepatartion":false,"ReferralValid":null,"CzyZameldowany":0},{"ServiceTypeID":0,"VisitDate":"\/Date(1579993200000)\/","VisitHour":{"Hours":10,"Minutes":0,"Seconds":0,"Milliseconds":0,"Ticks":360000000000,"Days":0,"TotalDays":0.41666666666666663,"TotalHours":10,"TotalMilliseconds":36000000,"TotalMinutes":600,"TotalSeconds":36000},"ServiceName":"Konsultacja ginekologiczna","DoctorName":"Albarudi","Price":195.0000,"YourPrice":0.0000,"DepartmentName":"Oddział Blue City","VisitEndHour":{"Hours":10,"Minutes":20,"Seconds":0,"Milliseconds":0,"Ticks":372000000000,"Days":0,"TotalDays":0.43055555555555552,"TotalHours":10.333333333333332,"TotalMilliseconds":37200000,"TotalMinutes":620,"TotalSeconds":37200},"DoctorSurName":"Firas","Description":"Oddział Blue City, Al. Jerozolimskie  179 Warszawa","DoctorId":61143,"DepartmentId":7,"DoctorTitle":"lekarz","DoctorOnlineID":61143,"ServiceID":2852,"ServiceOnlineID":0,"RoomNumber":303,"IsVisitToCancel":false,"CityId":0,"VisitId":0,"VisitID":0,"DepartmentStreet":null,"DepartmentStreetNumber":null,"DepartmentCode":null,"InstructionId":0,"Instruction":null,"IsDoctorActive":false,"IsDepartmentClosed":false,"IsSpecialityReservation":false,"DisallowCancel":false,"HasDocumentation":false,"Epayment":false,"Stars":false,"Stomatologia":false,"IsEnelSport":false,"HomeVisit":false,"NoPrepatartion":false,"ReferralValid":null,"CzyZameldowany":0},{"ServiceTypeID":0,"VisitDate":"\/Date(1579993200000)\/","VisitHour":{"Hours":11,"Minutes":20,"Seconds":0,"Milliseconds":0,"Ticks":408000000000,"Days":0,"TotalDays":0.47222222222222221,"TotalHours":11.333333333333332,"TotalMilliseconds":40800000,"TotalMinutes":680,"TotalSeconds":40800},"ServiceName":"Konsultacja ginekologiczna","DoctorName":"Albarudi","Price":195.0000,"YourPrice":0.0000,"DepartmentName":"Oddział Blue City","VisitEndHour":{"Hours":11,"Minutes":40,"Seconds":0,"Milliseconds":0,"Ticks":420000000000,"Days":0,"TotalDays":0.4861111111111111,"TotalHours":11.666666666666666,"TotalMilliseconds":42000000,"TotalMinutes":700,"TotalSeconds":42000},"DoctorSurName":"Firas","Description":"Oddział Blue City, Al. Jerozolimskie  179 Warszawa","DoctorId":61143,"DepartmentId":7,"DoctorTitle":"lekarz","DoctorOnlineID":61143,"ServiceID":2852,"ServiceOnlineID":0,"RoomNumber":303,"IsVisitToCancel":false,"CityId":0,"VisitId":0,"VisitID":0,"DepartmentStreet":null,"DepartmentStreetNumber":null,"DepartmentCode":null,"InstructionId":0,"Instruction":null,"IsDoctorActive":false,"IsDepartmentClosed":false,"IsSpecialityReservation":false,"DisallowCancel":false,"HasDocumentation":false,"Epayment":false,"Stars":false,"Stomatologia":false,"IsEnelSport":false,"HomeVisit":false,"NoPrepatartion":false,"ReferralValid":null,"CzyZameldowany":0},{"ServiceTypeID":0,"VisitDate":"\/Date(1579993200000)\/","VisitHour":{"Hours":11,"Minutes":40,"Seconds":0,"Milliseconds":0,"Ticks":420000000000,"Days":0,"TotalDays":0.4861111111111111,"TotalHours":11.666666666666666,"TotalMilliseconds":42000000,"TotalMinutes":700,"TotalSeconds":42000},"ServiceName":"Konsultacja ginekologiczna","DoctorName":"Albarudi","Price":195.0000,"YourPrice":0.0000,"DepartmentName":"Oddział Blue City","VisitEndHour":{"Hours":12,"Minutes":0,"Seconds":0,"Milliseconds":0,"Ticks":432000000000,"Days":0,"TotalDays":0.5,"TotalHours":12,"TotalMilliseconds":43200000,"TotalMinutes":720,"TotalSeconds":43200},"DoctorSurName":"Firas","Description":"Oddział Blue City, Al. Jerozolimskie  179 Warszawa","DoctorId":61143,"DepartmentId":7,"DoctorTitle":"lekarz","DoctorOnlineID":61143,"ServiceID":2852,"ServiceOnlineID":0,"RoomNumber":303,"IsVisitToCancel":false,"CityId":0,"VisitId":0,"VisitID":0,"DepartmentStreet":null,"DepartmentStreetNumber":null,"DepartmentCode":null,"InstructionId":0,"Instruction":null,"IsDoctorActive":false,"IsDepartmentClosed":false,"IsSpecialityReservation":false,"DisallowCancel":false,"HasDocumentation":false,"Epayment":false,"Stars":false,"Stomatologia":false,"IsEnelSport":false,"HomeVisit":false,"NoPrepatartion":false,"ReferralValid":null,"CzyZameldowany":0},{"ServiceTypeID":0,"VisitDate":"\/Date(1579993200000)\/","VisitHour":{"Hours":15,"Minutes":20,"Seconds":0,"Milliseconds":0,"Ticks":552000000000,"Days":0,"TotalDays":0.63888888888888884,"TotalHours":15.333333333333332,"TotalMilliseconds":55200000,"TotalMinutes":920,"TotalSeconds":55200},"ServiceName":"Konsultacja ginekologiczna","DoctorName":"Albarudi","Price":195.0000,"YourPrice":0.0000,"DepartmentName":"Oddział Blue City","VisitEndHour":{"Hours":15,"Minutes":40,"Seconds":0,"Milliseconds":0,"Ticks":564000000000,"Days":0,"TotalDays":0.65277777777777779,"TotalHours":15.666666666666666,"TotalMilliseconds":56400000,"TotalMinutes":940,"TotalSeconds":56400},"DoctorSurName":"Firas","Description":"Oddział Blue City, Al. Jerozolimskie  179 Warszawa","DoctorId":61143,"DepartmentId":7,"DoctorTitle":"lekarz","DoctorOnlineID":61143,"ServiceID":2852,"ServiceOnlineID":0,"RoomNumber":303,"IsVisitToCancel":false,"CityId":0,"VisitId":0,"VisitID":0,"DepartmentStreet":null,"DepartmentStreetNumber":null,"DepartmentCode":null,"InstructionId":0,"Instruction":null,"IsDoctorActive":false,"IsDepartmentClosed":false,"IsSpecialityReservation":false,"DisallowCancel":false,"HasDocumentation":false,"Epayment":false,"Stars":false,"Stomatologia":false,"IsEnelSport":false,"HomeVisit":false,"NoPrepatartion":false,"ReferralValid":null,"CzyZameldowany":0},{"ServiceTypeID":0,"VisitDate":"\/Date(1579993200000)\/","VisitHour":{"Hours":16,"Minutes":40,"Seconds":0,"Milliseconds":0,"Ticks":600000000000,"Days":0,"TotalDays":0.69444444444444442,"TotalHours":16.666666666666664,"TotalMilliseconds":60000000,"TotalMinutes":1000,"TotalSeconds":60000},"ServiceName":"Konsultacja ginekologiczna","DoctorName":"Albarudi","Price":195.0000,"YourPrice":0.0000,"DepartmentName":"Oddział Blue City","VisitEndHour":{"Hours":17,"Minutes":0,"Seconds":0,"Milliseconds":0,"Ticks":612000000000,"Days":0,"TotalDays":0.70833333333333326,"TotalHours":17,"TotalMilliseconds":61200000,"TotalMinutes":1020,"TotalSeconds":61200},"DoctorSurName":"Firas","Description":"Oddział Blue City, Al. Jerozolimskie  179 Warszawa","DoctorId":61143,"DepartmentId":7,"DoctorTitle":"lekarz","DoctorOnlineID":61143,"ServiceID":2852,"ServiceOnlineID":0,"RoomNumber":303,"IsVisitToCancel":false,"CityId":0,"VisitId":0,"VisitID":0,"DepartmentStreet":null,"DepartmentStreetNumber":null,"DepartmentCode":null,"InstructionId":0,"Instruction":null,"IsDoctorActive":false,"IsDepartmentClosed":false,"IsSpecialityReservation":false,"DisallowCancel":false,"HasDocumentation":false,"Epayment":false,"Stars":false,"Stomatologia":false,"IsEnelSport":false,"HomeVisit":false,"NoPrepatartion":false,"ReferralValid":null,"CzyZameldowany":0},{"ServiceTypeID":0,"VisitDate":"\/Date(1580079600000)\/","VisitHour":{"Hours":11,"Minutes":0,"Seconds":0,"Milliseconds":0,"Ticks":396000000000,"Days":0,"TotalDays":0.45833333333333331,"TotalHours":11,"TotalMilliseconds":39600000,"TotalMinutes":660,"TotalSeconds":39600},"ServiceName":"Konsultacja ginekologiczna","DoctorName":"Albarudi","Price":195.0000,"YourPrice":0.0000,"DepartmentName":"Oddział Blue City","VisitEndHour":{"Hours":11,"Minutes":20,"Seconds":0,"Milliseconds":0,"Ticks":408000000000,"Days":0,"TotalDays":0.47222222222222221,"TotalHours":11.333333333333332,"TotalMilliseconds":40800000,"TotalMinutes":680,"TotalSeconds":40800},"DoctorSurName":"Firas","Description":"Oddział Blue City, Al. Jerozolimskie  179 Warszawa","DoctorId":61143,"DepartmentId":7,"DoctorTitle":"lekarz","DoctorOnlineID":61143,"ServiceID":2852,"ServiceOnlineID":0,"RoomNumber":303,"IsVisitToCancel":false,"CityId":0,"VisitId":0,"VisitID":0,"DepartmentStreet":null,"DepartmentStreetNumber":null,"DepartmentCode":null,"InstructionId":0,"Instruction":null,"IsDoctorActive":false,"IsDepartmentClosed":false,"IsSpecialityReservation":false,"DisallowCancel":false,"HasDocumentation":false,"Epayment":false,"Stars":false,"Stomatologia":false,"IsEnelSport":false,"HomeVisit":false,"NoPrepatartion":false,"ReferralValid":null,"CzyZameldowany":0},{"ServiceTypeID":0,"VisitDate":"\/Date(1580079600000)\/","VisitHour":{"Hours":11,"Minutes":40,"Seconds":0,"Milliseconds":0,"Ticks":420000000000,"Days":0,"TotalDays":0.4861111111111111,"TotalHours":11.666666666666666,"TotalMilliseconds":42000000,"TotalMinutes":700,"TotalSeconds":42000},"ServiceName":"Konsultacja ginekologiczna","DoctorName":"Albarudi","Price":195.0000,"YourPrice":0.0000,"DepartmentName":"Oddział Blue City","VisitEndHour":{"Hours":12,"Minutes":0,"Seconds":0,"Milliseconds":0,"Ticks":432000000000,"Days":0,"TotalDays":0.5,"TotalHours":12,"TotalMilliseconds":43200000,"TotalMinutes":720,"TotalSeconds":43200},"DoctorSurName":"Firas","Description":"Oddział Blue City, Al. Jerozolimskie  179 Warszawa","DoctorId":61143,"DepartmentId":7,"DoctorTitle":"lekarz","DoctorOnlineID":61143,"ServiceID":2852,"ServiceOnlineID":0,"RoomNumber":303,"IsVisitToCancel":false,"CityId":0,"VisitId":0,"VisitID":0,"DepartmentStreet":null,"DepartmentStreetNumber":null,"DepartmentCode":null,"InstructionId":0,"Instruction":null,"IsDoctorActive":false,"IsDepartmentClosed":false,"IsSpecialityReservation":false,"DisallowCancel":false,"HasDocumentation":false,"Epayment":false,"Stars":false,"Stomatologia":false,"IsEnelSport":false,"HomeVisit":false,"NoPrepatartion":false,"ReferralValid":null,"CzyZameldowany":0},{"ServiceTypeID":0,"VisitDate":"\/Date(1580079600000)\/","VisitHour":{"Hours":12,"Minutes":40,"Seconds":0,"Milliseconds":0,"Ticks":456000000000,"Days":0,"TotalDays":0.52777777777777779,"TotalHours":12.666666666666666,"TotalMilliseconds":45600000,"TotalMinutes":760,"TotalSeconds":45600},"ServiceName":"Konsultacja ginekologiczna","DoctorName":"Albarudi","Price":195.0000,"YourPrice":0.0000,"DepartmentName":"Oddział Blue City","VisitEndHour":{"Hours":13,"Minutes":0,"Seconds":0,"Milliseconds":0,"Ticks":468000000000,"Days":0,"TotalDays":0.54166666666666663,"TotalHours":13,"TotalMilliseconds":46800000,"TotalMinutes":780,"TotalSeconds":46800},"DoctorSurName":"Firas","Description":"Oddział Blue City, Al. Jerozolimskie  179 Warszawa","DoctorId":61143,"DepartmentId":7,"DoctorTitle":"lekarz","DoctorOnlineID":61143,"ServiceID":2852,"ServiceOnlineID":0,"RoomNumber":303,"IsVisitToCancel":false,"CityId":0,"VisitId":0,"VisitID":0,"DepartmentStreet":null,"DepartmentStreetNumber":null,"DepartmentCode":null,"InstructionId":0,"Instruction":null,"IsDoctorActive":false,"IsDepartmentClosed":false,"IsSpecialityReservation":false,"DisallowCancel":false,"HasDocumentation":false,"Epayment":false,"Stars":false,"Stomatologia":false,"IsEnelSport":false,"HomeVisit":false,"NoPrepatartion":false,"ReferralValid":null,"CzyZameldowany":0},{"ServiceTypeID":0,"VisitDate":"\/Date(1580079600000)\/","VisitHour":{"Hours":13,"Minutes":0,"Seconds":0,"Milliseconds":0,"Ticks":468000000000,"Days":0,"TotalDays":0.54166666666666663,"TotalHours":13,"TotalMilliseconds":46800000,"TotalMinutes":780,"TotalSeconds":46800},"ServiceName":"Konsultacja ginekologiczna","DoctorName":"Albarudi","Price":195.0000,"YourPrice":0.0000,"DepartmentName":"Oddział Blue City","VisitEndHour":{"Hours":13,"Minutes":20,"Seconds":0,"Milliseconds":0,"Ticks":480000000000,"Days":0,"TotalDays":0.55555555555555558,"TotalHours":13.333333333333332,"TotalMilliseconds":48000000,"TotalMinutes":800,"TotalSeconds":48000},"DoctorSurName":"Firas","Description":"Oddział Blue City, Al. Jerozolimskie  179 Warszawa","DoctorId":61143,"DepartmentId":7,"DoctorTitle":"lekarz","DoctorOnlineID":61143,"ServiceID":2852,"ServiceOnlineID":0,"RoomNumber":303,"IsVisitToCancel":false,"CityId":0,"VisitId":0,"VisitID":0,"DepartmentStreet":null,"DepartmentStreetNumber":null,"DepartmentCode":null,"InstructionId":0,"Instruction":null,"IsDoctorActive":false,"IsDepartmentClosed":false,"IsSpecialityReservation":false,"DisallowCancel":false,"HasDocumentation":false,"Epayment":false,"Stars":false,"Stomatologia":false,"IsEnelSport":false,"HomeVisit":false,"NoPrepatartion":false,"ReferralValid":null,"CzyZameldowany":0}],"ActiveVisits":null,"CurrentPage":1,"PageSize":10,"TotalPages":2,"TotalItems":11,"Address":{"PatientCity":"WARSZAWA","PatientStreet":"POSAG 7 PANIEN","PatientStreetNumber":"12/80","PatientPostalCode":"02-495","UzupelnienieDanych":false},"Company":{"CompanyCity":null,"CompanyStreet":null,"CompanyStreetNumber":null,"CompanyPostalCode":null,"CompanyName":null,"CompanyNIP":null,"UzupelnienieDanych":true},"ChangeDate":true,"SrvLock":116,"ReferralMandatory":false,"ReferralMandatoryText":null,"SearchPremium":false,"CanSearchPremium":true};
+
+        var referralRequired = false;
+        var hasReferral = false;
+        var referralMandatory = false;
+        var referralMandatoryText = '';
+
+        $('.ref-ver').on('keyup', function() {
+            $('#sbtn').prop('disabled', !verifyRefData());
+        });
+
+        $('#DateIssued').on('change', function () {
+            $('span[data-valmsg-for="DateIssued"]').hide().text('');
+
+
+            $('#HDateIssued').val(this.value);
+            $.ajax({
+                url: '/api/EnelmedApi/CheckReferralDate?serviceId=' + $('#ListOfServices').val() + "&date=" + $('#HDateIssued').val(),
+                type: 'GET',
+                contentType: 'application/json',
+
+                        success: function (obj) {
+                            if (obj == 1) {
+                                $('span[data-valmsg-for="DateIssued"]').hide().text('');
+                            } else if(obj == 0) {
+                                $('span[data-valmsg-for="DateIssued"]').show().text('Skierowanie utraciło ważność');
+                            } else if (obj == -1) {
+                                $('span[data-valmsg-for="DateIssued"]').show().text('Data wystawienia skierowania jest datą przyszłą.');
+                            }
+                            $('#sbtn').prop('disabled', !verifyRefData());
+                        }
+
+            });
+            $('#sbtn').prop('disabled', !verifyRefData());
+        });
+
+        $('#book-no-ref').on('click',
+            function(e) {
+                e.stopPropagation();
+                e.preventDefault();
+                $('#dont-have-ref').hide();
+                $('#BookWithoutReferral').val(true);
+                $('#sbtn').prop('disabled', false)[0].click();
+                $('#sbtn').prop('disabled', true);
+                //$('#dont-have-ref').show();
+            });
+
+       
+
+        $.getJSON("/api/EnelmedApi/GetAllCities",
+            { srvLock: srvLock },
+            function(obj) {
+                if (obj != null) {
+
+                    $('#City')
+                        .append('<option selected disabled hidden value="">Wybierz</option>');
+                    $.each(obj,
+                        function(i, value) {
+                            $('#City').append($('<option>').text(value.CityName).attr('value', value.CityId));
+                        });
+                    if (serialized) {
+                        $('#City').val(selectedCity.City);
+                    } else {
+                        var city = 
+
+                        $('#City').val(city);
+                    }
+
+                    triggerEvent('#City', 'change');
+                }
+            });
+
+        $('#City').change(function(event) {
+            $('#Instructions').html('');
+            blockControl('#checkboxdropdown button');
+            blockControl('#ListOfServices');
+            blockControl('#ListOfTypes');
+            $('#ListOfServices').closest('.form-control.select').addClass('disabled');
+            $('#ListOfTypes').closest('.form-control.select').addClass('disabled');
+            blockControl('#checkboxdropdownDoc button');
+            blockControl('#ForeignLanguageDoctor');
+            $('#checkboxdropdownDoc button span.result')
+                .html('<span class="text-lightc">Wybierz</span>');
+            $('#ListOfServices option').remove();
+            triggerEvent('#ListOfServices', 'change');
+            if (currentDepartmentsRequest)
+                currentDepartmentsRequest.abort();
+            if (currentTypesRequest)
+                currentTypesRequest.abort();
+            if (currentServicesRequest)
+                currentServicesRequest.abort();
+            currentDepartmentsRequest = $.getJSON("/api/EnelmedApi/GetDepartmentsByCityId",
+                { id: this.value, srvLock: srvLock },
+                function(obj) {
+                    if (window.repeatSearch) {
+                        setTimeout(function() {
+                                $('#Loader').show();
+                                $('#Overlay').show();
+                            },
+                            1);
+                    }
+
+                    if (obj != null) {
+
+                        var dropdown = $('#checkboxdropdown .choose-group');
+                        $('#checkboxdropdown button span.result')
+                            .html('<span class="text-lightc">Wybierz</span>')
+                        dropdown.html('');
+                        var temp = 0;
+                        var fav = [];
+                            
+                        $.each(obj,
+                            function(i, value) {
+                                dropdown.append('<label><input type="checkbox" name="Department" value="' +
+                                    value.DepartmentId +
+                                    '">' +
+                                    '<span value="' +
+                                    value.DepartmentId +
+                                    '">' +
+                                    value.DepartmentName +
+                                    '</span></label>');
+                                temp++;
+                                if (value.Favourite)
+                                    fav.push(value.DepartmentId);
+
+                            });
+                        if (selectedCity.Department) {
+                            dropdown.find('input').each(function() {
+                                if ($.inArray(parseInt($(this).attr('value')), selectedCity.Department) != -1) {
+                                    $(this).prop('checked', true);
+                                }
+                            });
+                            triggerEvent('#confirmDepartment', 'click');
+                        } else if (obj.length >= 1) {
+                            dropdown.find('input').each(function () {
+
+                                if (fav.length == 0 || fav.indexOf(Number(this.value)) >= 0)
+                                    $(this).prop('checked', true);
+
+                            });
+                            triggerEvent('#confirmDepartment', 'click');
+
+                        } else if (doctorId) {
+                            dropdown.find('input').each(function() {
+
+                                $(this).prop('checked', true);
+
+                            });
+                            triggerEvent('#confirmDepartment', 'click');
+                        }
+
+                    }
+                    if (temp > 0) {
+                        unblockControl($('#checkboxdropdown button'));
+                    }
+                });
+        });
+
+        $('#confirmDepartment').on('click',
+            function () {
+                window.choosenDepartments = new Array();
+                var labels = $('#checkboxdropdown .choose-group label');
+                blockControl('#ListOfTypes');
+                $('#ListOfTypes').closest('.form-control.select').addClass('disabled');
+                $('#ListOfTypes option').remove();
+                $('#ListOfTypes')
+                    .append('<option selected disabled hidden value="">Wybierz</option>');
+                $('#ListOfTypes').trigger('change');
+                blockControl('#ListOfServices');
+                $('#ListOfServices').closest('.form-control.select').addClass('disabled');
+                $('#ListOfServices option').remove();
+                $('#ListOfServices')
+                    .append('<option selected disabled hidden value="">Wybierz</option>');
+                $('#ListOfServices').trigger('change');
+                blockControl('#checkboxdropdownDoc button');
+                blockControl('#ForeignLanguageDoctor');
+                $('#checkboxdropdownDoc button span.result')
+                    .html('<span class="text-lightc">Wybierz</span>');
+
+                $.each(labels,
+                    function () {
+                        if ($(this).find('input').is(':checked')) {
+                            var value = $(this).find('span').attr('value');
+                            window.choosenDepartments.push(value);
+                        }
+                    });
+
+                if (window.choosenDepartments) {
+                    currentTypesRequest = $.ajax({
+                        url: '/api/EnelmedApi/GetServiceTypesByDepartmentId',
+                        type: 'POST',
+                        data: JSON.stringify(window.choosenDepartments),
+                        contentType: 'application/json',
+                        beforeSend: function() {
+                            if (currentTypesRequest)
+                                currentTypesRequest.abort();
+                            if (currentServicesRequest)
+                                currentServicesRequest.abort();
+                        },
+                        success: function (obj) {
+                            if (window.repeatSearch) {
+                                setTimeout(function() {
+                                        $('#Loader').show();
+                                        $('#Overlay').show();
+                                    },
+                                    1);
+                            }
+                            if (obj != null) {
+
+                                var temp = 0;
+                                $.each(obj,
+                                    function (i, value) {
+                                        $('#ListOfTypes')
+                                            .append($('<option>').text(value.TypeName)
+                                                .attr('value', value.TypeId));
+                                        temp++;
+                                    });
+                                if (serialized && selectedCity.Type != 0) {
+                                    $('#ListOfTypes').val(selectedCity.ServiceType);
+                                    //triggerEvent('#ListOfServices', 'change');
+                                } else if (specialityId) {
+                                    $('#ListOfTypes').val(specialityId);
+                                    //triggerEvent('#ListOfServices', 'change');
+                                    unblockControl('#checkboxdropdownDoc button');
+                                } else {
+                                    $('#ListOfTypes').val(null);
+                                }
+                                if (temp > 0) {
+                                    unblockControl('#ListOfTypes');
+                                    $('#ListOfTypes').closest('.form-control.select').removeClass('disabled');
+                                }
+                                if (srvLock > 0) {
+                                    blockControl('#ListOfTypes');
+                                    $('#ListOfTypes').parent().addClass("disabled");
+                                }
+                                if ($('#ListOfTypes').val()) {
+                                    $('span[for="ListOfTypes"]').remove();
+                                }
+                                $("#ListOfTypes").change();
+                            }
+
+                        }
+
+                    });
+                }
+            });
+
+        $('#ListOfTypes').change(function (event) {
+            var labels = $('#checkboxdropdown .choose-group label');
+            blockControl('#ListOfServices');
+            $('#ListOfServices').closest('.form-control.select').addClass('disabled');
+            $('#ListOfServices option').remove();
+            $('#ListOfServices')
+                .append('<option selected disabled hidden value="">Wybierz</option>');
+            $('#ListOfServices').trigger('change');
+            blockControl('#checkboxdropdownDoc button');
+            blockControl('#ForeignLanguageDoctor');
+            $('#checkboxdropdownDoc button span.result')
+                .html('<span class="text-lightc">Wybierz</span>');
+
+
+            window.choosenDepartments = new Array();
+
+            $.each(labels,
+                function() {
+                    if ($(this).find('input').is(':checked')) {
+                        var value = $(this).find('span').attr('value');
+                        window.choosenDepartments.push(value);
+                    }
+                });
+                if (window.choosenDepartments && this.value) {
+                    currentServicesRequest = $.ajax({
+                        url: '/api/EnelmedApi/GetServicesByTypeDepartmentId',
+                        type: 'GET',
+                        data: {
+                            typeId: this.value,
+                            departments: (window.choosenDepartments)
+                        },
+                        contentType: 'application/json',
+                        beforeSend: function () {
+                            if (currentServicesRequest)
+                                currentServicesRequest.abort();
+                        },
+                        success: function(obj) {
+                            if (window.repeatSearch) {
+                                setTimeout(function () {
+                                    $('#Loader').show();
+                                    $('#Overlay').show();
+                                },
+                                    1);
+                            }
+                            if (obj != null) {
+
+                                var temp = 0;
+                                $.each(obj,
+                                    function(i, value) {
+                                        $('#ListOfServices')
+                                            .append($('<option>').text(value.ServiceName)
+                                                .attr('value', value.ServiceId));
+                                        temp++;
+                                    });
+                                if (serialized && selectedCity.Specialization != 0) {
+                                    $('#ListOfServices').val(selectedCity.Service);
+                                    //triggerEvent('#ListOfServices', 'change');
+                                } else if (specialityId) {
+                                    $('#ListOfServices').val(specialityId);
+                                    //triggerEvent('#ListOfServices', 'change');
+                                    unblockControl('#checkboxdropdownDoc button');
+                                } else {
+                                    $('#ListOfServices').val(null);
+                                }
+                                if (temp > 0) {
+                                    unblockControl('#ListOfServices');
+                                    $('#ListOfServices').closest('.form-control.select').removeClass('disabled');
+                                }
+                                if (srvLock > 0) {
+                                    $('#ListOfServices').val(srvLock);
+
+                                    blockControl('#ListOfServices');
+                                    $('#ListOfServices').parent().addClass("disabled");
+                                }
+                                if ($('#ListOfServices').val()) {
+                                    $('span[for="ListOfServices"]').remove();
+                                }
+                            }
+                            if (temp > 0) {
+                                unblockControl('#ListOfServices');
+                                $('#ListOfServices').closest('.form-control.select').removeClass('disabled');
+                            }
+                            if (srvLock > 0) {
+                                $('#ListOfServices').val(srvLock);
+
+                                blockControl('#ListOfServices');
+                                $('#ListOfServices').parent().addClass("disabled");
+                            }
+                            $("#ListOfServices").change();
+                        }
+
+                    });
+            }
+        });
+
+
+        $('#ListOfServices').change(function(event) {
+            $('#Instructions').html('');
+
+
+            blockControl('#checkboxdropdownDoc button');
+            $('#checkboxdropdownDoc button span.result')
+                .html('<span class="text-lightc">Wybierz</span>');
+            var dropdown = $('#checkboxdropdownDoc .choose-group');
+            window.reSelectDoc = false;
+
+            dropdown.html('');
+            if (window.choosenDepartments && window.choosenDepartments.length > 0 && $('#ListOfTypes').val() && this.value) {
+                $.ajax({
+                    url: '/api/EnelmedApi/GetDoctorsByDepartmentIdAndByServiceId',
+                    type: 'POST',
+                    data: {
+                        "ServiceId": this.value,
+                        "ForeignLanguage": seng ? true : $('#ForeignLanguageDoctor').is(':checked'),
+                        "DepartmentsId": (window.choosenDepartments)
+                    },
+                    success: function(obj) {
+                        if (window.repeatSearch) {
+                            setTimeout(function() {
+                                    $('#Loader').show();
+                                    $('#Overlay').show();
+                                },
+                                1);
+                        }
+                        if (obj != null) {
+                            unblockControl($('#checkboxdropdownDoc button'));
+                            $.each(obj,
+                                function(i, value) {
+
+                                    dropdown.append('<label><input type="checkbox" name="Doctor" value="' +
+                                        value.DoctorId +
+                                        '">' +
+                                        '<span value="' +
+                                        value.DoctorId +
+                                        '">' +
+                                        value.DoctorData +
+                                        '</span></label>');
+                                });
+                            if (window.reSelectDoc) {
+                                dropdown.find('input').prop('checked', true);
+                                triggerEvent('#confirmDoctor', 'click');
+                                triggerEvent($('#confirmDoctor').closest('.dropdown-checkboxes')
+                                    .find('.js-accept-dropdown'),
+                                    'click');
+                            } else if (serialized && selectedCity.Doctor) {
+                                dropdown.find('input').each(function() {
+                                    if ($.inArray(Number($(this).attr('value')), selectedCity.Doctor) != -1) {
+                                        $(this).prop('checked', true);
+                                    }
+                                });
+                                triggerEvent('#confirmDoctor', 'click');
+                                triggerEvent($('#confirmDoctor').closest('.dropdown-checkboxes')
+                                    .find('.js-accept-dropdown'),
+                                    'click');
+                            } else if (doctorId) {
+                                dropdown.find('input').each(function() {
+                                    if ($(this).attr('value') == doctorId) {
+                                        $(this).prop('checked', true);
+                                        triggerEvent('#confirmDoctor', 'click');
+                                        triggerEvent($('#confirmDoctor').closest('.dropdown-checkboxes')
+                                            .find('.js-accept-dropdown'),
+                                            'click');
+                                    }
+                                });
+
+                            } else if (obj.length > 0) {
+                                dropdown.find('input').prop('checked', true);
+                                triggerEvent('#confirmDoctor', 'click');
+                                triggerEvent($('#confirmDoctor').closest('.dropdown-checkboxes')
+                                    .find('.js-accept-dropdown'),
+                                    'click');
+                            }
+                            unblockControl('#checkboxdropdownDoc button');
+                            unblockControl('#ForeignLanguageDoctor');
+                            window.doctorsLoaded = true;
+                            if (window.repeatSearch) {
+                                window.repeatSearch = false;
+                                $('#SearchVisitForm').submit();
+                            }
+                        }
+                    }
+
+                });
+
+            $.getJSON("/api/EnelmedApi/GetInstructionByService",
+                {
+                    id: this.value,
+                    branchIds: $('input[name="Department"]:checked')
+                        .map(function(i, e) { return parseInt($(e).val()); }).toArray()
+                },
+                function(obj) {
+                    if (obj != null) {
+                        var ins = '';
+                        $.each(obj,
+                            function(i, value) {
+                                if (value.Instruction.length > 0) {
+                                    if (value.InstructionId == -404) {
+                                        ins = '<span style="color:red;">' +
+                                            value.Instruction +
+                                            '</span><br/><br/>' +
+                                            ins;
+                                    } else {
+                                        ins = ins + value.Instruction + '<br/><br/>';
+                                    }
+                                }
+
+                                if ($.trim(ins).length > 0) {
+                                    $('#Instructions').html('<div class="well">' +
+                                        ins +
+                                        '<div id="acpt-r-p" class="form-group text-center ">' +
+                                        '<label style="margin-bottom: -17px; color:black; font-size:15px; margin-top:15px;">' +
+                                        '<input id="AcptRul" name="AcptRul" type="checkbox" value="true" /><input name="AcptRul" type="hidden" value="false" />' +
+                                        ' Zapoznałem(am) się z zasadami umawiania wizyty na wybraną usługę w systemie on-line' +
+                                    '</label>' +
+                                    '</div>' +
+                                    '</div>');
+                                    if (referralRequired) {
+                                        $('#Instructions').parent().addClass('examination-prep');
+                                        $('#Instructions .well').removeClass('well');
+                                        $('#acpt-r-p').hide();
+                                        } else {
+                                            $('#Instructions').parent().removeClass('examination-prep');
+                                        }
+                                }
+                            });
+                        if ($.trim(ins).length > 0) {
+                            $('#Instructions').html('<div class="well text-center">' +
+                                ins +
+                                '<div id="acpt-r-p" class="form-group text-center ">' +
+                                '<label style="margin-bottom: -17px; color:black; font-size:15px; margin-top:15px;">' +
+                                '<input id="AcptRul" name="AcptRul" type="checkbox" value="true" /><input name="AcptRul" type="hidden" value="false" />' +
+                                ' Zapoznałem(am) się z zasadami umawiania wizyty na wybraną usługę w systemie on-line' +
+                                '</label>' +
+                                '</div>' +
+                                '</div>');
+                            if (referralRequired) {
+                                $('#exam-info').show();
+                                $('#Instructions').parent().addClass('examination-prep');
+                                $('#Instructions .well').removeClass('well');
+                                $('#acpt-r-p').hide();
+                                if (hasReferral) {
+                                    $('#dont-have-ref-cc').hide();
+                                    $('#dont-have-ref-remember').hide();
+                                    $('#YouHaveReferral').show();
+                                    $('#sbtn').prop('disabled', false);
+                                    $('#dont-have-ref').hide();
+                                } else {
+                                    $('#dont-have-ref-cc').show();
+                                    $('#dont-have-ref-remember').show();
+                                    $('#YouHaveReferral').hide();
+                                    $('#sbtn').prop('disabled', true);
+                                    $('#dont-have-ref').show();
+                                    $('#sbtn').prop('disabled', !verifyRefData());
+                                }
+                            } else {
+                                $('#Instructions').parent().removeClass('examination-prep');
+                            }
+                        } else {
+                            $('#exam-info').hide();
+                            $('#Instructions').html('');
+                        }
+
+                    }
+                });
+
+            var referralData = $.getJSON("/api/EnelmedApi/GetReferralForSearching",
+                    { id: this.value, cancelId: $('#VisitToCancelId').val() },
+                    function(data) {
+                        if (data != null) {
+                            hasReferral = data.HasReferral;
+                            referralRequired = data.ReferralRequired;
+                            referralMandatory = data.ReferralMandatory;
+                            referralMandatoryText = data.ReferralMandatoryText;
+                            $('#HasReferral').val(hasReferral);
+                            $('#ReferralRequired').val(referralRequired);
+                            $('#ReferralMandatory').val(referralMandatory);
+                            $('#ReferralMandatoryText').val(referralMandatoryText);
+                            if (!selectedService ||
+                                (selectedService === 0 || window.ListOfServices.value != selectedService)) {
+                                $('#BookWithoutReferral').val(false);
+                            }
+                            if (referralRequired) {
+                                $('#Instructions').parent().addClass('examination-prep');
+                                $('#Instructions .well').removeClass('well');
+                                $('#acpt-r-p').hide();
+                                if (hasReferral) {
+                                    $('#dont-have-ref-cc').hide();
+                                    $('#dont-have-ref-remember').hide();
+                                    $('#YouHaveReferral').show();
+                                    $('#sbtn').prop('disabled', false);
+                                    $('#dont-have-ref').hide();
+                                } else {
+                                    $('#dont-have-ref-cc').show();
+                                    $('#dont-have-ref-remember').show();
+                                    $('#YouHaveReferral').hide();
+                                    $('#sbtn').prop('disabled', true);
+                                    $('#dont-have-ref').show();
+                                    $('#sbtn').prop('disabled', !verifyRefData());
+                                    if (referralMandatory) {
+                                        $('.ref-no').hide();
+                                        $('#dont-have-ref-cc').hide();
+                                        $('.ref-paper').addClass('col-lg-offset-4').removeClass('col-lg-offset-2');
+                                        $('#ref-mandatory-txt').show().find('p').text(referralMandatoryText);
+                                    } else {
+                                        $('.ref-no').show();
+                                        $('.ref-paper').addClass('col-lg-offset-2').removeClass('col-lg-offset-4');
+                                        $('#ref-mandatory-txt').hide().find('p').text('');
+                                    }
+                                }
+                            } else {
+                                $('#Instructions').parent().removeClass('examination-prep');
+                                $('#Instructions>div').addClass('well');
+                                $('#acpt-r-p').show();
+
+                                $('#dont-have-ref-cc').hide();
+                                $('#dont-have-ref-remember').hide();
+                                $('#YouHaveReferral').hide();
+                                $('#sbtn').prop('disabled', false);
+                                $('#dont-have-ref').hide();
+                            }
+                        } else {
+                            $('#dont-have-ref-cc').hide();
+                            $('#dont-have-ref-remember').hide();
+                            $('#YouHaveReferral').hide();
+                            $('#sbtn').prop('disabled', false);
+                            $('#dont-have-ref').hide();
+                            $('#Instructions').parent().removeClass('examination-prep');
+                            $('#Instructions>div').addClass('well');
+                            $('#acpt-r-p').show();
+                        }
+                    });
+            }
+
+        });
+
+        $('#ForeignLanguageDoctor').change(function(event) {
+
+            var dropdown = $('#checkboxdropdownDoc .choose-group');
+            dropdown.html('');
+            if (window.choosenDepartments &&
+                window.choosenDepartments.length > 0 &&
+                $('#ListOfTypes').val() &&
+                $('#ListOfServices').val()) {
+                $.ajax({
+                    url: '/api/EnelmedApi/GetDoctorsByDepartmentIdAndByServiceId',
+                    type: 'POST',
+                    data: {
+                        "ServiceId": $('#ListOfServices').val(),
+                        "ForeignLanguage": seng ? true : $('#ForeignLanguageDoctor').is(':checked'),
+                        "DepartmentsId": (window.choosenDepartments)
+                    },
+                    success: function(obj) {
+                        if (window.repeatSearch) {
+                            setTimeout(function() {
+                                    $('#Loader').show();
+                                    $('#Overlay').show();
+                                },
+                                1);
+                        }
+                        if (obj != null) {
+                            unblockControl($('#checkboxdropdownDoc button'));
+                            $.each(obj,
+                                function(i, value) {
+
+                                    dropdown.append('<label><input type="checkbox" name="Doctor" value="' +
+                                        value.DoctorId +
+                                        '">' +
+                                        '<span value="' +
+                                        value.DoctorId +
+                                        '">' +
+                                        value.DoctorData +
+                                        '</span></label>');
+                                });
+                            if (window.reSelectDoc) {
+                                dropdown.find('input').prop('checked', true);
+                                triggerEvent('#confirmDoctor', 'click');
+                                triggerEvent($('#confirmDoctor').closest('.dropdown-checkboxes')
+                                    .find('.js-accept-dropdown'),
+                                    'click');
+                            } else if (serialized && selectedCity.Doctor) {
+                                dropdown.find('input').each(function() {
+                                    if ($.inArray(Number($(this).attr('value')), selectedCity.Doctor) != -1) {
+                                        $(this).prop('checked', true);
+                                    }
+                                });
+                                triggerEvent('#confirmDoctor', 'click');
+                                triggerEvent($('#confirmDoctor').closest('.dropdown-checkboxes')
+                                    .find('.js-accept-dropdown'),
+                                    'click');
+                            } else if (doctorId) {
+                                dropdown.find('input').each(function() {
+                                    if ($(this).attr('value') == doctorId) {
+                                        $(this).prop('checked', true);
+                                        triggerEvent('#confirmDoctor', 'click');
+                                        triggerEvent($('#confirmDoctor').closest('.dropdown-checkboxes')
+                                            .find('.js-accept-dropdown'),
+                                            'click');
+                                    }
+                                });
+
+                            } else if (obj.length > 0) {
+                                dropdown.find('input').prop('checked', true);
+                                triggerEvent('#confirmDoctor', 'click');
+                                triggerEvent($('#confirmDoctor').closest('.dropdown-checkboxes')
+                                    .find('.js-accept-dropdown'),
+                                    'click');
+                            }
+                            unblockControl('#checkboxdropdownDoc button');
+                            unblockControl('#ForeignLanguageDoctor');
+                            window.doctorsLoaded = true;
+                            if (window.repeatSearch) {
+                                window.repeatSearch = false;
+                                $('#SearchVisitForm').submit();
+                            }
+                        }
+                    }
+
+                });}
+
+        });
+
+        if (!serialized) {
+            $('input[id="' +
+                'PreferredVisitHours' +
+                '"][value="' +
+                0 +
+                '"]').prop('checked', true);
+        }
+
+
+        $('#PageSize > li > a').on('click',
+            function(e) {
+                e.preventDefault();
+                $(document).off("ajaxStop");
+            });
+
+
+    });
+
+    function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+            if (pair[0] == variable) {
+                return pair[1];
+            }
+        }
+        return (false);
+    }
+
+    function DoSearch() {
+        setTimeout(function() {
+                $('#Loader').show();
+                $('#Overlay').show();
+            },
+            1);
+        if (!window.doctorsLoaded) {
+            window.repeatSearch = true;
+            setTimeout(function() {
+                    $('#Loader').show();
+                    $('#Overlay').show();
+                },
+                100);
+            return false;
+        }
+        window.doctorsLoaded = false;
+    }
+
+    function VerifyEnelFast() {
+        var all = $('#checkboxdropdownDoc input[name="Doctor"]');
+        $('#CanSearchPremium').val(all.length !== all.filter(':checked').length);
+        return true;
+    }
+
+    $(document).ready(function() {
+        $('#limitOnlineModal').modal();
+        $('#limitModal').modal();
+        fireDaterange();
+        fireDate();
+    });
+
+    function validateRules(e) {
+        var $r = $('#AcptRul:visible');
+        if ($r.length > 0) {
+            if ($r.is(':checked')) {
+                $r.parent().removeClass('text-warning');
+            } else {
+                $r.parent().css('color', '#d50000!important');
+                e.preventDefault();
+            }
+        }
+    }
+
+    var reservationData;
+
+    function makeReservationSelect(doctorId,
+        visitDate,
+        visitDateStart,
+        visitDateEnd,
+        roomId,
+        serviceId,
+        popupDescription,
+        langId,
+        sessionServerGuid,
+        hasPay,
+        payBtnText,
+        paperReferral,
+        referralId,
+        bookWithoutReferral,
+        premium) {
+        reservationData = {'doctorId': doctorId,
+            'visitDate': visitDate,
+            'visitDateStart': visitDateStart,
+            'visitDateEnd': visitDateEnd,
+            'roomId': roomId,
+            'popupDescription': popupDescription,
+            'langId': langId,
+            'sessionServerGuid': sessionServerGuid,
+            'hasPay': hasPay,
+            'payBtnText': payBtnText,
+            'serviceId': serviceId,
+            'paperReferral' : paperReferral,
+            'referralId' : referralId,
+            'bookWithoutReferral': bookWithoutReferral,
+            'premium': premium
+        }
+    }
+    function continueChange(event, visitId) {
+        event.preventDefault();
+        event.stopPropagation();
+        $('#changeVisitModal').modal('hide');
+        $('#changeVisitModal').on('hidden.bs.modal',
+            function () {
+                $('#reservationModal').modal('show');
+                makeReservation(reservationData.doctorId,
+                    reservationData.visitDate,
+                    reservationData.visitDateStart,
+                    reservationData.visitDateEnd,
+                    reservationData.roomId,
+                    reservationData.serviceId,
+                    visitId,
+                    reservationData.popupDescription.slice(1, -1),
+                    reservationData.langId,
+                    reservationData.sessionServerGuid,
+                    reservationData.hasPay,
+                    reservationData.payBtnText,
+                    reservationData.paperReferral,
+                    reservationData.referralId,
+                    reservationData.bookWithoutReferral,
+                    reservationData.premium);
+                $('#changeVisitModal').off('hidden.bs.modal');
+            });
+        return true;
+    }
+</script>
