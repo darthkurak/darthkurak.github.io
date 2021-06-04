@@ -2,8 +2,6 @@
 layout: null
 ---
 
-@import url("pygment_highlights.css");
-
 /* --- General --- */
 
 body {
@@ -274,6 +272,10 @@ footer {
 
 footer p.text-muted {
   color: {{ site.footer-text-col }};
+}
+
+.container {
+  width: 80% !important;
 }
 
 footer a {

@@ -138,7 +138,7 @@ If you want, you can set `ResultSize` to less.
 
 Function use above to paginate results:
 
-{% highlight csharp %}
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -311,7 +311,7 @@ namespace AzFunction
         }
     }
 }
-{% endhighlight %}
+```
 
 
 
