@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Solutions Architect | Bosch
+subtitle: Team Lead | Allegro Pay
 ---
 
 I have been a software architecture enthusiast and problem solver in the .NET world for 10 years.  
